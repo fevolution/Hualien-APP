@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VlgComPath">
+            <rect key="frame" x="0.0" y="0.0" width="1800" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="9DK-T8-6h0" userLabel="Canvas View">
+                    <rect key="frame" x="0.0" y="20" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_01_02_bg.png" id="KDA-qW-Lvp">
+                            <rect key="frame" x="45" y="69" width="910" height="681"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_01_02_title.png" id="sfv-Et-XmX">
+                            <rect key="frame" x="22" y="83" width="240" height="122"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="LYf-SK-iyR" userLabel="OutdoorRun Line">
+                            <rect key="frame" x="483" y="495" width="1" height="78"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="9co-Hf-dR6" userLabel="Stage Line">
+                            <rect key="frame" x="577" y="551" width="1" height="130"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="AZD-2w-eh5" userLabel="OpenKitchen Line">
+                            <rect key="frame" x="608" y="173" width="1" height="154"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="f1z-IN-09D" userLabel="Atrium Line">
+                            <rect key="frame" x="465" y="386" width="1" height="243"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="x7m-Yc-ynC" userLabel="OutdoorRest Line">
+                            <rect key="frame" x="298" y="230" width="1" height="163"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="YJ3-0l-J5w" userLabel="WarmPool Line">
+                            <rect key="frame" x="455" y="129" width="1" height="212"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="YY0-bf-aWq" userLabel="Pet Line">
+                            <rect key="frame" x="849" y="400" width="1" height="153"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gary_dot.png" highlightedImage="orange_dot.png" id="olX-Rb-QVF" userLabel="OutdoorRest Dot">
+                            <rect key="frame" x="292" y="386" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="xnI-Fz-t9B" userLabel="OutdoorRun Dot">
+                            <rect key="frame" x="477" y="489" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="HB2-AX-bPs" userLabel="Stage Dot">
+                            <rect key="frame" x="571" y="546" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="enJ-Co-9f8" userLabel="OpenKitchen Dot">
+                            <rect key="frame" x="602" y="320" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="GIj-Zh-hDu" userLabel="WarmPool Line">
+                            <rect key="frame" x="769" y="229" width="1" height="207"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="2aW-N1-zXf" userLabel="Coffee Line">
+                            <rect key="frame" x="761" y="300" width="1" height="216"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="Rhm-nf-n93" userLabel="WarmPool Dot">
+                            <rect key="frame" x="765" y="431" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="G0p-Wn-GtC" userLabel="Coffee Dot">
+                            <rect key="frame" x="755" y="510" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="ktR-VF-pQT" userLabel="Pet Dot">
+                            <rect key="frame" x="843" y="544" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="eEr-cI-NrC" userLabel="Atrium Dot">
+                            <rect key="frame" x="459" y="378" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CqF-Ue-J5U" userLabel="Coffee">
+                            <rect key="frame" x="670" y="275" width="184" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_coffee.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_coffee_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_coffee_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="t16-Zc-IRK"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="AU9-fB-PZv"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="lrM-KL-UTw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lmo-vK-80F" userLabel="Pet">
+                            <rect key="frame" x="753" y="376" width="192" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_pet.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_pet_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_pet_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="QJX-3U-s5S"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="qAR-Ec-HAd"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="1sA-ij-UhH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DUz-9e-WaZ" userLabel="Stage">
+                            <rect key="frame" x="485" y="676" width="184" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_stage.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_stage_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_stage_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="IyR-Gs-tzt"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="or4-hW-rYD"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="e50-gm-l6p"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3C4-wn-Tvn" userLabel="OpenKitchen">
+                            <rect key="frame" x="507" y="144" width="223" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_openkitchen.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_openkitchen_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_openkitchen_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="nkC-BC-GeN"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="zOc-aa-CMH"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="y1a-vW-GRN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mda-V5-Wap" userLabel="IndoorRun">
+                            <rect key="frame" x="363" y="96" width="184" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_indoorrun.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_indoorrun_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_indoorrun_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="QY8-Fp-KBy"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="0dR-tc-Qh0"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="Lr4-tX-Kou"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YqJ-aV-zqK" userLabel="Atrium">
+                            <rect key="frame" x="374" y="618" width="184" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_ atrium.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_ atrium_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_ atrium_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="tSL-8K-FIZ"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ii2-R5-CD4"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="bYL-Qe-f3m"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JjK-BA-KUd" userLabel="OutdoorRun">
+                            <rect key="frame" x="395" y="569" width="199" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_outdoorrun.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_outdoorrun_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_outdoorrun_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="zbK-Ip-bbh"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="xjH-N2-vGx"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="KEq-RF-fgE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zLN-R2-lsn" userLabel="WarmPool">
+                            <rect key="frame" x="678" y="200" width="184" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_warmswimpool.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_01_02_btn_warmswimpool_highlit.png"/>
+                            <state key="highlighted" image="vlg_01_02_btn_warmswimpool_highlit.png"/>
+                            <connections>
+                                <action selector="onBtnDragOutside:" destination="iN0-l3-epB" eventType="touchDragOutside" id="eKT-h2-qty"/>
+                                <action selector="onClikBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="paT-EO-0Wq"/>
+                                <action selector="onClikBtnDown:" destination="iN0-l3-epB" eventType="touchDown" id="qAb-T9-9IO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eE3-dF-w7g" userLabel="OutdoorRest">
+                            <rect key="frame" x="197" y="200" width="205" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_01_02_btn_outdoor_rest.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_compass.png" id="KPb-Xg-XxZ">
+                            <rect key="frame" x="30" y="657" width="36" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_dot.png" highlightedImage="orange_dot.png" id="CfN-xs-1Ll" userLabel="IndoorRun Dot">
+                            <rect key="frame" x="449" y="339" width="13" height="13"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95294117647058818" green="0.94901960784313721" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="gmV-5t-9rd" userLabel="Cell View">
+                    <rect key="frame" x="1024" y="20" width="778" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="okn-lb-Pll" userLabel="prev btn">
+                            <rect key="frame" x="369" y="373" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="arrow_dot.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="bscellPrev:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wlw-Lw-3ot"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AVy-fs-40v" userLabel="next btn">
+                            <rect key="frame" x="555" y="373" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="arrow_dot.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="bscellNext:" destination="iN0-l3-epB" eventType="touchUpInside" id="bv0-69-G3U"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vBt-8x-1Rq" userLabel="breath prev btn">
+                            <rect key="frame" x="30" y="374" width="42" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="breath_green_dot.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="bscellPrev:" destination="iN0-l3-epB" eventType="touchUpInside" id="GBC-Wx-Kd8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6yF-hD-VNc" userLabel="breath next btn">
+                            <rect key="frame" x="696" y="374" width="42" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="breath_green_dot.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="bscellNext:" destination="iN0-l3-epB" eventType="touchUpInside" id="uxw-co-6Yk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="uiAtriumBtn" destination="YqJ-aV-zqK" id="cYc-dM-pqj"/>
+                <outlet property="uiAtriumDot" destination="eEr-cI-NrC" id="AmX-Zv-ObM"/>
+                <outlet property="uiAtriumLine" destination="f1z-IN-09D" id="A6K-an-LF4"/>
+                <outlet property="uiBreathNextArrow" destination="6yF-hD-VNc" id="FnQ-Gw-3sa"/>
+                <outlet property="uiBreathPrevArrow" destination="vBt-8x-1Rq" id="mJj-yk-S5m"/>
+                <outlet property="uiCanvasView" destination="9DK-T8-6h0" id="pjR-dg-hGV"/>
+                <outlet property="uiCellView" destination="gmV-5t-9rd" id="Lqg-eC-fMf"/>
+                <outlet property="uiCoffeeBtn" destination="CqF-Ue-J5U" id="zHg-KK-C8p"/>
+                <outlet property="uiCoffeeDot" destination="G0p-Wn-GtC" id="VCI-TX-k5D"/>
+                <outlet property="uiCoffeeLine" destination="2aW-N1-zXf" id="zt3-KQ-g0x"/>
+                <outlet property="uiIndoorRunBtn" destination="Mda-V5-Wap" id="dAX-oV-Pz5"/>
+                <outlet property="uiIndoorRunDot" destination="CfN-xs-1Ll" id="HYX-MD-DDi"/>
+                <outlet property="uiIndoorRunLine" destination="YJ3-0l-J5w" id="mtN-AF-UWK"/>
+                <outlet property="uiLeftArrow" destination="okn-lb-Pll" id="TDd-wX-zLv"/>
+                <outlet property="uiOpenKitchenBtn" destination="3C4-wn-Tvn" id="fQc-fB-G7O"/>
+                <outlet property="uiOpenKitchenDot" destination="enJ-Co-9f8" id="v39-BE-Pdb"/>
+                <outlet property="uiOpenKitchenLine" destination="AZD-2w-eh5" id="sKH-Ea-tA3"/>
+                <outlet property="uiOutdoorRunBtn" destination="JjK-BA-KUd" id="bec-3d-4FX"/>
+                <outlet property="uiOutdoorRunDot" destination="xnI-Fz-t9B" id="MEA-Ma-7Z7"/>
+                <outlet property="uiOutdoorRunLine" destination="LYf-SK-iyR" id="L5N-oq-cFg"/>
+                <outlet property="uiPetBtn" destination="lmo-vK-80F" id="RPu-67-fJk"/>
+                <outlet property="uiPetDot" destination="ktR-VF-pQT" id="tDc-nS-PLX"/>
+                <outlet property="uiPetLine" destination="YY0-bf-aWq" id="4Jz-RM-QSd"/>
+                <outlet property="uiRightArrow" destination="AVy-fs-40v" id="Au4-Cc-ElI"/>
+                <outlet property="uiStageBtn" destination="DUz-9e-WaZ" id="PhR-jM-7ku"/>
+                <outlet property="uiStageDot" destination="HB2-AX-bPs" id="TfT-MK-6ID"/>
+                <outlet property="uiStageLine" destination="9co-Hf-dR6" id="Lu0-si-UpC"/>
+                <outlet property="uiWarmPoolBtn" destination="zLN-R2-lsn" id="Ro0-ZP-wNR"/>
+                <outlet property="uiWarmPoolDot" destination="Rhm-nf-n93" id="NkE-ju-VY2"/>
+                <outlet property="uiWarmPoolLine" destination="GIj-Zh-hDu" id="LXm-eN-lx9"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_dot.png" width="64" height="64"/>
+        <image name="breath_green_dot.png" width="38" height="38"/>
+        <image name="gary_dot.png" width="360" height="360"/>
+        <image name="green_dot.png" width="60" height="60"/>
+        <image name="orange_dot.png" width="60" height="60"/>
+        <image name="vlg_01_02_bg.png" width="1024" height="659"/>
+        <image name="vlg_01_02_btn_ atrium.png" width="178" height="38"/>
+        <image name="vlg_01_02_btn_ atrium_highlit.png" width="178" height="38"/>
+        <image name="vlg_01_02_btn_coffee.png" width="177" height="38"/>
+        <image name="vlg_01_02_btn_coffee_highlit.png" width="177" height="38"/>
+        <image name="vlg_01_02_btn_indoorrun.png" width="184" height="39"/>
+        <image name="vlg_01_02_btn_indoorrun_highlit.png" width="184" height="39"/>
+        <image name="vlg_01_02_btn_openkitchen.png" width="220" height="39"/>
+        <image name="vlg_01_02_btn_openkitchen_highlit.png" width="220" height="39"/>
+        <image name="vlg_01_02_btn_outdoor_rest.png" width="200" height="38"/>
+        <image name="vlg_01_02_btn_outdoorrun.png" width="193" height="38"/>
+        <image name="vlg_01_02_btn_outdoorrun_highlit.png" width="193" height="38"/>
+        <image name="vlg_01_02_btn_pet.png" width="192" height="38"/>
+        <image name="vlg_01_02_btn_pet_highlit.png" width="192" height="38"/>
+        <image name="vlg_01_02_btn_stage.png" width="182" height="38"/>
+        <image name="vlg_01_02_btn_stage_highlit.png" width="182" height="38"/>
+        <image name="vlg_01_02_btn_warmswimpool.png" width="185" height="39"/>
+        <image name="vlg_01_02_btn_warmswimpool_highlit.png" width="185" height="39"/>
+        <image name="vlg_01_02_title.png" width="304" height="156"/>
+        <image name="vlg_compass.png" width="36" height="63"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
