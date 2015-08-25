@@ -15,6 +15,7 @@
 }
 @property(nonatomic, weak)IBOutlet SingleImageScrollView* uiSclView;
 @property(nonatomic, weak)IBOutlet UIButton* uiCross;
+@property(nonatomic, weak)IBOutlet UIView* uiBgView;
 @end
 
 @implementation GeneralScaleZoomVCtrl
@@ -59,6 +60,11 @@
 {
     UIImage* img = [UIImage imageNamed:@"common_cross_white.png"];
     [self.uiCross setImage:img forState:UIControlStateNormal];
+}
+-(void)setBackgroundColor:(UIColor*)color Opacity:(float)opacity
+{
+  [self.uiBgView setBackgroundColor:color];
+  self.uiBgView.alpha = opacity;
 }
 - (CGRect)zoomRectForScrollView:(UIScrollView *)scrollView withScale:(float)scale withCenter:(CGPoint)center {
 

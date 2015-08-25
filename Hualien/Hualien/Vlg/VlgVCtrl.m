@@ -15,6 +15,7 @@ static NSString *const classVlgRoomType      = @"VlgRoomType";
 static NSString *const classVlgInterDeco     = @"VlgInterDeco";
 static NSString *const classVlgScade         = @"VlgScade";
 static NSString *const classVlgUnitSel       = @"VlgUnitSel";
+static NSString *const classVlgBird          = @"VlgBird";
 
 @interface VlgVCtrl ()<UIScrollViewDelegate>
 {
@@ -190,7 +191,8 @@ static NSString *const classVlgUnitSel       = @"VlgUnitSel";
 
 - (IBAction)onHome:(id)sender
 {
-    [self.navigationController popToRootViewControllerAnimated:NO];
+ //   [self.navigationController popToRootViewControllerAnimated:NO];
+   [self switchToViewByString:classVlgBird];
 }
 
 - (IBAction)onInterview:(id)sender

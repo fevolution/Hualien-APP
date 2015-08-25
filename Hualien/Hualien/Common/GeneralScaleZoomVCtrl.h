@@ -13,5 +13,6 @@
 -(void)setZoomEnable:(BOOL)enable;
 -(void)turnGreenCross;
 -(void)turnWhiteCross;
+-(void)setBackgroundColor:(UIColor*)color Opacity:(float)opacity;
 @property(nonatomic, strong)UIImage* displayImage;
 @end
