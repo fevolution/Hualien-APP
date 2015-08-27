@@ -11,7 +11,7 @@
 
 static NSString *const classPlanView = @"SpxPlanView";
 static NSString *const classLionShackView = @"SpxLionShackView";
-
+static NSString *const classEcoShackView = @"SpxEcoView";
 @interface SpxZoneVCtrl ()
 {
     __weak UIView* iActiveView;
@@ -21,6 +21,7 @@ static NSString *const classLionShackView = @"SpxLionShackView";
 @property(nonatomic, weak)IBOutlet UIView* uiSplash;
 @property(nonatomic, weak)IBOutlet UIButton* uiPlan;
 @property(nonatomic, weak)IBOutlet UIButton* uiLion;
+@property(nonatomic, weak)IBOutlet UIButton* uiEco;
 @property(nonatomic, weak)IBOutlet UIImageView* uiBackHome;
 @end
 
@@ -127,6 +128,17 @@ static NSString *const classLionShackView = @"SpxLionShackView";
     self.uiPlan.selected = NO;
     [self switchToViewByString:classLionShackView];
     //[self openMenu];
+}
+
+
+- (IBAction)onEco:(id)sender
+{
+  self.uiBackHome.hidden = NO;
+  self.uiLion.selected = NO;
+  self.uiPlan.selected = NO;
+  self.uiEco.selected = YES;
+  [self switchToViewByString:classEcoShackView];
+  //[self openMenu];
 }
 
 @end

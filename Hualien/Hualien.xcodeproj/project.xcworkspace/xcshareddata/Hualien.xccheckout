@@ -10,29 +10,29 @@
 	<string>Hualien</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CC729014DA882DBCDFA9C8CFCE4ABE33B42DAC58</key>
-		<string>https://bitbucket.org/chuntamac/hualienapp.git</string>
+		<key>5953D1033E82E19D4E61BC32F63F04F15B1B7418</key>
+		<string>https://github.com/fevolution/Hualien-APP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Hualien/Hualien.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CC729014DA882DBCDFA9C8CFCE4ABE33B42DAC58</key>
+		<key>5953D1033E82E19D4E61BC32F63F04F15B1B7418</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/chuntamac/hualienapp.git</string>
+	<string>https://github.com/fevolution/Hualien-APP.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CC729014DA882DBCDFA9C8CFCE4ABE33B42DAC58</string>
+	<string>5953D1033E82E19D4E61BC32F63F04F15B1B7418</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CC729014DA882DBCDFA9C8CFCE4ABE33B42DAC58</string>
+			<string>5953D1033E82E19D4E61BC32F63F04F15B1B7418</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Hualien</string>
 		</dict>

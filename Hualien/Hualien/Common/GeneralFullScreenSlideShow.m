@@ -239,6 +239,7 @@ typedef enum
         {
             if (i!=index)
             {
+              NSLog(@"create %d", i);
                 GeneralFullScreenSlideCell* cell = [[GeneralFullScreenSlideCell alloc] initWithDesFile:[self.iDesNameList objectAtIndex:i] Bg:[self.iBgNameList objectAtIndex:i] Delegate:self];
                 [self.view addSubview:cell];
                 [iCellList addObject:cell];

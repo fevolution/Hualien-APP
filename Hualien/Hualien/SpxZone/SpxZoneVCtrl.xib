@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpxZoneVCtrl">
             <connections>
+                <outlet property="uiEco" destination="HpN-ua-a5n" id="zjM-Ad-e3M"/>
                 <outlet property="uiLion" destination="u7Y-JT-Ydr" id="04S-OF-iCg"/>
                 <outlet property="uiMenu" destination="9hv-RE-NkW" id="Yle-h0-Yer"/>
                 <outlet property="uiPlan" destination="QWY-DA-Bhj" id="xRI-Xx-9X7"/>
@@ -34,7 +35,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QWY-DA-Bhj" userLabel="Plan">
-                            <rect key="frame" x="416" y="13" width="64" height="20"/>
+                            <rect key="frame" x="388" y="13" width="64" height="20"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" image="spx_plan.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -46,7 +47,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="u7Y-JT-Ydr" userLabel="Lion">
-                            <rect key="frame" x="536" y="13" width="80" height="20"/>
+                            <rect key="frame" x="472" y="13" width="80" height="20"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" image="spx_lion.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,6 +56,18 @@
                             <state key="highlighted" image="spx_lion_highlit.png"/>
                             <connections>
                                 <action selector="onLion:" destination="-1" eventType="touchUpInside" id="oOz-VJ-e7h"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HpN-ua-a5n" userLabel="Eco">
+                            <rect key="frame" x="572" y="13" width="59" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="spx_eco.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="spx_eco_highlit.png"/>
+                            <state key="highlighted" image="spx_eco_highlit.png"/>
+                            <connections>
+                                <action selector="onEco:" destination="-1" eventType="touchUpInside" id="k5i-iy-eDc"/>
                             </connections>
                         </button>
                         <view contentMode="scaleToFill" id="PH7-FX-VeQ" userLabel="SperatorBar">
@@ -113,6 +126,8 @@
     <resources>
         <image name="gohome_btn.png" width="34" height="32"/>
         <image name="spx_big_title.png" width="974" height="144"/>
+        <image name="spx_eco.png" width="59" height="20"/>
+        <image name="spx_eco_highlit.png" width="59" height="20"/>
         <image name="spx_lion.png" width="80" height="20"/>
         <image name="spx_lion_highlit.png" width="80" height="20"/>
         <image name="spx_open_bg.png" width="1024" height="768"/>
