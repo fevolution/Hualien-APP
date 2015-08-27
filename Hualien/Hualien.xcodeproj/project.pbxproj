@@ -366,10 +366,10 @@
 		18ED35BA1B8F1B1A000C8E6E /* spx_eco_bird_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35B71B8F1B1A000C8E6E /* spx_eco_bird_20.png */; };
 		18ED35BB1B8F1B1A000C8E6E /* spx_eco_bird_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35B81B8F1B1A000C8E6E /* spx_eco_bird_19.png */; };
 		18ED35BD1B8F1B8D000C8E6E /* spx_eco_bird_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35BC1B8F1B8D000C8E6E /* spx_eco_bird_22.png */; };
-		18ED35C11B8F1C2F000C8E6E /* spx_eco_bird_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_26.png */; };
+		18ED35C11B8F1C2F000C8E6E /* spx_eco_bird_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_25.png */; };
 		18ED35C21B8F1C2F000C8E6E /* spx_eco_bird_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35BF1B8F1C2F000C8E6E /* spx_eco_bird_24.png */; };
 		18ED35C31B8F1C2F000C8E6E /* spx_eco_bird_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35C01B8F1C2F000C8E6E /* spx_eco_bird_23.png */; };
-		18ED35C51B8F1CF5000C8E6E /* spx_eco_bird_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_25.png */; };
+		18ED35C51B8F1CF5000C8E6E /* spx_eco_bird_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_26.png */; };
 		18F0EFD41B59034D00B7EEA4 /* spx_lion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EFD01B59034D00B7EEA4 /* spx_lion@2x.png */; };
 		18F0EFD51B59034D00B7EEA4 /* spx_lion_highlit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EFD11B59034D00B7EEA4 /* spx_lion_highlit@2x.png */; };
 		18F0EFD61B59034D00B7EEA4 /* spx_plan_highlit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EFD21B59034D00B7EEA4 /* spx_plan_highlit@2x.png */; };
@@ -2120,10 +2120,10 @@
 		18ED35B71B8F1B1A000C8E6E /* spx_eco_bird_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_20.png; path = Resources/SpxZone/spx_eco_bird_20.png; sourceTree = "<group>"; };
 		18ED35B81B8F1B1A000C8E6E /* spx_eco_bird_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_19.png; path = Resources/SpxZone/spx_eco_bird_19.png; sourceTree = "<group>"; };
 		18ED35BC1B8F1B8D000C8E6E /* spx_eco_bird_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_22.png; path = Resources/SpxZone/spx_eco_bird_22.png; sourceTree = "<group>"; };
-		18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_26.png; path = Resources/SpxZone/spx_eco_bird_26.png; sourceTree = "<group>"; };
+		18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_25.png; path = Resources/SpxZone/spx_eco_bird_25.png; sourceTree = "<group>"; };
 		18ED35BF1B8F1C2F000C8E6E /* spx_eco_bird_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_24.png; path = Resources/SpxZone/spx_eco_bird_24.png; sourceTree = "<group>"; };
 		18ED35C01B8F1C2F000C8E6E /* spx_eco_bird_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_23.png; path = Resources/SpxZone/spx_eco_bird_23.png; sourceTree = "<group>"; };
-		18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_25.png; path = Resources/SpxZone/spx_eco_bird_25.png; sourceTree = "<group>"; };
+		18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spx_eco_bird_26.png; path = Resources/SpxZone/spx_eco_bird_26.png; sourceTree = "<group>"; };
 		18F0EFD01B59034D00B7EEA4 /* spx_lion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spx_lion@2x.png"; path = "Resources/SpxZone/spx_lion@2x.png"; sourceTree = "<group>"; };
 		18F0EFD11B59034D00B7EEA4 /* spx_lion_highlit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spx_lion_highlit@2x.png"; path = "Resources/SpxZone/spx_lion_highlit@2x.png"; sourceTree = "<group>"; };
 		18F0EFD21B59034D00B7EEA4 /* spx_plan_highlit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spx_plan_highlit@2x.png"; path = "Resources/SpxZone/spx_plan_highlit@2x.png"; sourceTree = "<group>"; };
@@ -3352,8 +3352,8 @@
 				18ED35BC1B8F1B8D000C8E6E /* spx_eco_bird_22.png */,
 				18ED35C01B8F1C2F000C8E6E /* spx_eco_bird_23.png */,
 				18ED35BF1B8F1C2F000C8E6E /* spx_eco_bird_24.png */,
-				18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_25.png */,
-				18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_26.png */,
+				18ED35BE1B8F1C2F000C8E6E /* spx_eco_bird_25.png */,
+				18ED35C41B8F1CF5000C8E6E /* spx_eco_bird_26.png */,
 				18ED357F1B8F0279000C8E6E /* spx_eco_highlit.png */,
 				18ED35801B8F0279000C8E6E /* spx_eco_highlit@2x.png */,
 				18ED35851B8F0328000C8E6E /* spx_eco.png */,
@@ -5164,7 +5164,7 @@
 				18ED35A41B8F15F9000C8E6E /* spx_eco_bird_15.png in Resources */,
 				18EBDB1D1B4A1DE800E81A45 /* spx_lion_motobike_des_cap@2x.png in Resources */,
 				188CB6D71B4AA7270019ED84 /* vlg_interdeco@2x.png in Resources */,
-				18ED35C51B8F1CF5000C8E6E /* spx_eco_bird_25.png in Resources */,
+				18ED35C51B8F1CF5000C8E6E /* spx_eco_bird_26.png in Resources */,
 				244BE90F1AD3FA92000556B9 /* spx_plan_highlit.png in Resources */,
 				18F5DC2C1B4EACF5006BFF91 /* vlg_arch_01_05_3room.png in Resources */,
 				181A68991B465C760028B543 /* hl_intro_c03_text01_refine.png in Resources */,
@@ -6207,7 +6207,7 @@
 				246BC6061AD6F59100C5FB24 /* spx_lion_eco@2x.png in Resources */,
 				18C9CE8C1B47F7E80073C77F /* spx_plan_map_lifezone_btn@2x.png in Resources */,
 				18F9CF691B5E253A005EEA1D /* vlg_arch_01_04_houseroom_subtopbar_01_01_highlit_noline@2x.png in Resources */,
-				18ED35C11B8F1C2F000C8E6E /* spx_eco_bird_26.png in Resources */,
+				18ED35C11B8F1C2F000C8E6E /* spx_eco_bird_25.png in Resources */,
 				24591A331ACB4BEB00D834A0 /* hl_tg_farm_des.png in Resources */,
 				182002131B6631F5002810D5 /* vlg_sel_titles.png in Resources */,
 				18ED35841B8F02E9000C8E6E /* spx_eco@2x.png in Resources */,
