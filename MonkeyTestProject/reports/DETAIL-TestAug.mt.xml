@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-08-25 22:37:21.800 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:09:42 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="TestAug.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script TestAug.mt Run %thinktime=500 %timeout=2000" idx="1" start="1440513422466" stop="1440513441796" duration="19.33" screenshot="screenshots/screenshot_2015-08-25_223721.png" result="failure">
+        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="2" start="1440513422466" stop="1440513424975" duration="2.509" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="3" start="1440513424975" stop="1440513427499" duration="2.524" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="4" start="1440513427499" stop="1440513430036" duration="2.537" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="arrow dot(2)" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;arrow dot(2)&quot; Tap %thinktime=2500 %timeout=5000" idx="5" start="1440513430036" stop="1440513441795" duration="11.759" screenshot="screenshots/screenshot_2015-08-25_223721.png" result="failure">
+            <msg><![CDATA[Button with monkeyID "arrow dot(2)" is animating]]>
+            </msg>
+        </cmd>
+    </script>
+</detail>

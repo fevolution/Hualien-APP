@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-07-28 09:44:43.283 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:09:42 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="ide" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script ide Run %thinktime=500 %timeout=2000" idx="1" start="1438047876548" stop="1438047883235" duration="6.687" result="error">
+        <cmd  comp="Button" id="_uiHL" action="tap" mods="%thinktime=2133 %timeout=5000" raw="Button _uiHL tap %thinktime=2133 %timeout=5000" idx="2" start="1438047876595" stop="1438047878743" duration="2.148" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="tap" mods="%thinktime=2133 %timeout=5000" raw="Button &quot;hl tg submenu&quot; tap %thinktime=2133 %timeout=5000" idx="3" start="1438047878744" stop="1438047881041" duration="2.297" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg farm" action="tap" mods="%thinktime=2133 %timeout=5000" raw="Button &quot;hl tg farm&quot; tap %thinktime=2133 %timeout=5000" idx="4" start="1438047881042" stop="1438047883232" duration="2.19" result="ok">
+        </cmd>
+    </script>
+</detail>

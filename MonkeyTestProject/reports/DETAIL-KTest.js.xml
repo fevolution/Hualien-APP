@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-08-25 23:05:12.602 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:09:42 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="ide" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script ide Run %thinktime=500 %timeout=2000" idx="1" start="1440515102383" stop="1440515112567" duration="10.184" result="error">
+        <cmd  comp="Button" id="_uiHL" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL tap %thinktime=2500 %timeout=5000" idx="2" start="1440515102423" stop="1440515104941" duration="2.518" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl intro submenu" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; tap %thinktime=2500 %timeout=5000" idx="3" start="1440515104947" stop="1440515107478" duration="2.531" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; tap %thinktime=2500 %timeout=5000" idx="4" start="1440515107480" stop="1440515110009" duration="2.529" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg farm" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; tap %thinktime=2500 %timeout=5000" idx="5" start="1440515110010" stop="1440515112566" duration="2.556" result="ok">
+        </cmd>
+    </script>
+</detail>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-07-30 00:08:52.500 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:10:07 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="ide" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script ide Run %thinktime=500 %timeout=2000" idx="1" start="1438186103021" stop="1438186132301" duration="29.28" screenshot="screenshots/screenshot_2015-07-30_000852.png" result="failure">
+        <cmd  comp="Button" id="_uiHL" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL tap %thinktime=2500 %timeout=5000" idx="2" start="1438186103105" stop="1438186105794" duration="2.689" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl intro submenu" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; tap %thinktime=2500 %timeout=5000" idx="3" start="1438186105795" stop="1438186108497" duration="2.702" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; tap %thinktime=2500 %timeout=5000" idx="4" start="1438186108497" stop="1438186111389" duration="2.892" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; tap %thinktime=2500 %timeout=5000" idx="5" start="1438186111392" stop="1438186114259" duration="2.867" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiSpx" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx tap %thinktime=2500 %timeout=5000" idx="6" start="1438186114259" stop="1438186117222" duration="2.963" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx plan" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; tap %thinktime=2500 %timeout=5000" idx="7" start="1438186117223" stop="1438186119975" duration="2.752" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx lion" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; tap %thinktime=2500 %timeout=5000" idx="8" start="1438186119976" stop="1438186123269" duration="3.293" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx lion" action="tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; tap %thinktime=2500 %timeout=5000" idx="9" start="1438186123270" stop="1438186132301" duration="9.031" screenshot="screenshots/screenshot_2015-07-30_000852.png" result="failure">
+            <msg><![CDATA[No Button found with monkeyID "spx lion"]]>
+            </msg>
+        </cmd>
+    </script>
+</detail>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MonkeyProject" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant">
+  <target name="myScript">
+    <monkeytalk:run agent="iOS" script="${basedir}/KTest.mt" thinktime="2500" timeout="6000" />
+  </target>
+</project>

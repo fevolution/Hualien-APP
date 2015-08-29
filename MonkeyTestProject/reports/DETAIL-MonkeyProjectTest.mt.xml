@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-07-25 17:15:29.156 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:10:07 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="MonkeyProjectTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script MonkeyProjectTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1437815610060" stop="1437815729145" duration="119.085" result="ok">
+        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiHL Tap %thinktime=2200 %timeout=2000" idx="2" start="1437815610060" stop="1437815612815" duration="2.755" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="3" start="1437815612815" stop="1437815615175" duration="2.36" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="4" start="1437815615175" stop="1437815617662" duration="2.487" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="5" start="1437815617662" stop="1437815620234" duration="2.572" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiSpx Tap %thinktime=2200 %timeout=2000" idx="6" start="1437815620234" stop="1437815622549" duration="2.315" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;spx plan&quot; Tap %thinktime=2200 %timeout=2000" idx="7" start="1437815622549" stop="1437815625103" duration="2.554" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;spx lion&quot; Tap %thinktime=2200 %timeout=2000" idx="8" start="1437815625103" stop="1437815627564" duration="2.461" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="9" start="1437815627564" stop="1437815629925" duration="2.361" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiVlg Tap %thinktime=2200 %timeout=2000" idx="10" start="1437815629925" stop="1437815632176" duration="2.251" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;common cross&quot; Tap %thinktime=2200 %timeout=2000" idx="11" start="1437815632176" stop="1437815634526" duration="2.35" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2200 %timeout=2000" idx="12" start="1437815634526" stop="1437815636879" duration="2.353" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2200 %timeout=2000" idx="13" start="1437815636879" stop="1437815639374" duration="2.495" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2200 %timeout=2000" idx="14" start="1437815639374" stop="1437815641795" duration="2.421" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2200 %timeout=2000" idx="15" start="1437815641795" stop="1437815644357" duration="2.562" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2200 %timeout=2000" idx="16" start="1437815644357" stop="1437815646815" duration="2.458" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2200 %timeout=2000" idx="17" start="1437815646815" stop="1437815649501" duration="2.686" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg scade" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg scade&quot; Tap %thinktime=2200 %timeout=2000" idx="18" start="1437815649501" stop="1437815652663" duration="3.162" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="common cross green" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;common cross green&quot; Tap %thinktime=2200 %timeout=2000" idx="19" start="1437815652663" stop="1437815655111" duration="2.448" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg unitsel" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg unitsel&quot; Tap %thinktime=2200 %timeout=2000" idx="20" start="1437815655111" stop="1437815657565" duration="2.454" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="21" start="1437815657565" stop="1437815660249" duration="2.684" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiHL Tap %thinktime=2200 %timeout=2000" idx="22" start="1437815660249" stop="1437815662583" duration="2.334" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="23" start="1437815662583" stop="1437815664937" duration="2.354" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="24" start="1437815664937" stop="1437815667431" duration="2.494" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="25" start="1437815667431" stop="1437815669891" duration="2.46" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2200 %timeout=2000" idx="26" start="1437815669891" stop="1437815672342" duration="2.451" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="27" start="1437815672342" stop="1437815674922" duration="2.58" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiVlg Tap %thinktime=2200 %timeout=2000" idx="28" start="1437815674922" stop="1437815677161" duration="2.239" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;common cross&quot; Tap %thinktime=2200 %timeout=2000" idx="29" start="1437815677161" stop="1437815679609" duration="2.448" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2200 %timeout=2000" idx="30" start="1437815679609" stop="1437815682039" duration="2.43" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2200 %timeout=2000" idx="31" start="1437815682039" stop="1437815684547" duration="2.508" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2200 %timeout=2000" idx="32" start="1437815684547" stop="1437815687160" duration="2.613" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2200 %timeout=2000" idx="33" start="1437815687160" stop="1437815689621" duration="2.461" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2200 %timeout=2000" idx="34" start="1437815689621" stop="1437815691976" duration="2.355" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2200 %timeout=2000" idx="35" start="1437815691976" stop="1437815694285" duration="2.309" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2200 %timeout=2000" idx="36" start="1437815694285" stop="1437815696681" duration="2.396" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2200 %timeout=2000" idx="37" start="1437815696682" stop="1437815699151" duration="2.469" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2200 %timeout=2000" idx="38" start="1437815699151" stop="1437815701599" duration="2.448" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg arch 01 05 interiordeco to(2)" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg arch 01 05 interiordeco to(2)&quot; Tap %thinktime=2200 %timeout=2000" idx="39" start="1437815701599" stop="1437815703954" duration="2.355" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg scade" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg scade&quot; Tap %thinktime=2200 %timeout=2000" idx="40" start="1437815703955" stop="1437815707230" duration="3.275" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="common cross green" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;common cross green&quot; Tap %thinktime=2200 %timeout=2000" idx="41" start="1437815707230" stop="1437815709818" duration="2.588" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg unitsel" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg unitsel&quot; Tap %thinktime=2200 %timeout=2000" idx="42" start="1437815709818" stop="1437815712147" duration="2.329" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="43" start="1437815712147" stop="1437815714499" duration="2.352" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button _uiVlgFtr Tap %thinktime=2200 %timeout=2000" idx="44" start="1437815714499" stop="1437815717057" duration="2.558" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;common cross white&quot; Tap %thinktime=2200 %timeout=2000" idx="45" start="1437815717058" stop="1437815719349" duration="2.291" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg service&quot; Tap %thinktime=2200 %timeout=2000" idx="46" start="1437815719349" stop="1437815721657" duration="2.308" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2200 %timeout=2000" idx="47" start="1437815721657" stop="1437815724024" duration="2.367" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="1" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button 1 Tap %thinktime=2200 %timeout=2000" idx="48" start="1437815724024" stop="1437815726585" duration="2.561" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2200 %timeout=2000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2200 %timeout=2000" idx="49" start="1437815726585" stop="1437815729144" duration="2.559" result="ok">
+        </cmd>
+    </script>
+</detail>

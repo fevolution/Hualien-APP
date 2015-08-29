@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7703" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VlgRoomType">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.69999999999999973" contentMode="scaleToFill" id="Qjt-TZ-RRn" userLabel="Left View">
+                    <rect key="frame" x="0.0" y="0.0" width="45" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <view contentMode="scaleToFill" id="2Un-GG-EM4" userLabel="House n House SubMenu">
+                    <rect key="frame" x="398" y="-20" width="118" height="107"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Svn-nd-TOK" userLabel="04">
+                            <rect key="frame" x="19" y="12" width="80" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_01_01.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_01_01_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_01_01_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="gEA-2a-2Jv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eGO-f4-jDV" userLabel="02">
+                            <rect key="frame" x="19" y="48" width="80" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_01_02.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_01_02_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_01_02_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fFb-JT-v4V"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="But-N0-h9v" userLabel="03">
+                            <rect key="frame" x="0.0" y="43" width="80" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_01_02.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_01_02_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_01_02_highlit_noline.png"/>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TjJ-wY-NZK" userLabel="01">
+                            <rect key="frame" x="19" y="83" width="80" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_01_04.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_01_04_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_01_04_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="YPk-Y4-6GB"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="Vi3-0K-AyR" userLabel="sep02">
+                            <rect key="frame" x="0.0" y="37" width="118" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="hLV-AM-Six" userLabel="sep03">
+                            <rect key="frame" x="0.0" y="74" width="118" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="6pG-bM-gRC" userLabel="OneTier SubMenu">
+                    <rect key="frame" x="508" y="-20" width="118" height="107"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yio-Ct-tCF" userLabel="01 ">
+                            <rect key="frame" x="-145" y="-112" width="30" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_02_01.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_02_01_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_02_01_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="vPq-q8-fBw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PEw-y5-l09" userLabel="02">
+                            <rect key="frame" x="45" y="12" width="30" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_02_02.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_02_02_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_02_02_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Huu-mz-DyT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="I71-u3-c7I" userLabel="03">
+                            <rect key="frame" x="45" y="48" width="30" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_02_03.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_02_03_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_02_03_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="xhj-nH-Tmx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uUA-C7-zEc" userLabel="04">
+                            <rect key="frame" x="45" y="83" width="30" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_subtopbar_02_04.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_subtopbar_02_04_highlit_noline.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_subtopbar_02_04_highlit_noline.png"/>
+                            <connections>
+                                <action selector="onBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="jWc-Vc-c2O"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="jbI-ck-36y" userLabel="sep01">
+                            <rect key="frame" x="0.0" y="37" width="118" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="aWV-uh-nWN" userLabel="sep02">
+                            <rect key="frame" x="0.0" y="74" width="118" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="LnH-Ga-dcX" userLabel="TopMenuGroup">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="150"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Snh-cu-Hzd" userLabel="house in house">
+                            <rect key="frame" x="434" y="117" width="47" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_topbar_rlr.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_topbar_rlr_highlit.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_topbar_rlr_highlit.png"/>
+                            <connections>
+                                <action selector="onHouseInHouseClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="4ut-6A-cal"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="poe-Zt-Tg5" userLabel="house one tier">
+                            <rect key="frame" x="544" y="117" width="47" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="vlg_arch_01_04_houseroom_topbar_onetier.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="vlg_arch_01_04_houseroom_topbar_onetier_highlit.png"/>
+                            <state key="highlighted" image="vlg_arch_01_04_houseroom_topbar_onetier_highlit.png"/>
+                            <connections>
+                                <action selector="onOneTierClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="TNK-Ey-V1x"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view alpha="0.69999999999999973" contentMode="scaleToFill" id="gxT-Xe-9By" userLabel="Right View">
+                    <rect key="frame" x="979" y="0.0" width="45" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <view contentMode="scaleToFill" id="MOU-ro-BGQ" userLabel="Bottom View">
+                    <rect key="frame" x="0.0" y="700" width="1024" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_1room_lnl.png" id="wCP-xe-CCH">
+                            <rect key="frame" x="25" y="0.0" width="56" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_2room_lnl.png" id="ago-qE-K1w">
+                            <rect key="frame" x="25" y="0.0" width="56" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_3room_lnl.png" id="zfI-Jc-D2Q">
+                            <rect key="frame" x="25" y="0.0" width="56" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_4room_lnl.png" id="tNT-ex-k2w">
+                            <rect key="frame" x="25" y="0.0" width="56" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_1room.png" id="T5l-Cn-eJQ">
+                            <rect key="frame" x="25" y="0.0" width="22" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_2room.png" id="sWQ-aB-Xhm">
+                            <rect key="frame" x="25" y="0.0" width="22" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_3room.png" id="hXd-Ia-6ej">
+                            <rect key="frame" x="25" y="0.0" width="22" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_sroom.png" id="iJN-dv-kwR">
+                            <rect key="frame" x="25" y="0.0" width="22" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vlg_arch_01_05_interiordeco_3dbottom_logo.png" id="tPc-Nc-Z5j">
+                            <rect key="frame" x="924" y="0.0" width="73" height="10"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gQK-T0-QkO" userLabel="SlideContainer">
+                    <rect key="frame" x="25" y="150" width="974" height="536"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="uiHouseHouseMenu" destination="2Un-GG-EM4" id="Tlz-jd-FZ3"/>
+                <outlet property="uiLogo" destination="tPc-Nc-Z5j" id="8Ye-K7-jOj"/>
+                <outlet property="uiLogo1Room" destination="T5l-Cn-eJQ" id="Qnk-TF-nMC"/>
+                <outlet property="uiLogo2Room" destination="sWQ-aB-Xhm" id="mVT-h5-f5I"/>
+                <outlet property="uiLogo3Room" destination="hXd-Ia-6ej" id="zH9-rz-ga4"/>
+                <outlet property="uiLogoRoom1LnL" destination="wCP-xe-CCH" id="Z3L-GY-OGe"/>
+                <outlet property="uiLogoRoom2LnL" destination="ago-qE-K1w" id="32n-jm-qlh"/>
+                <outlet property="uiLogoRoom3LnL" destination="zfI-Jc-D2Q" id="q5d-Ee-duV"/>
+                <outlet property="uiLogoRoom4LnL" destination="tNT-ex-k2w" id="tCg-Xn-a2b"/>
+                <outlet property="uiLogoSRoom" destination="iJN-dv-kwR" id="K9p-oX-3w9"/>
+                <outlet property="uiOneTierMenu" destination="6pG-bM-gRC" id="cdI-qf-nxH"/>
+                <outlet property="uiSliderContainer" destination="gQK-T0-QkO" id="DzF-VO-Qt7"/>
+                <outlet property="uiSub01_01" destination="Svn-nd-TOK" id="Dw3-px-TxD"/>
+                <outlet property="uiSub01_02" destination="But-N0-h9v" id="ncD-Sj-bpi"/>
+                <outlet property="uiSub01_03" destination="eGO-f4-jDV" id="HBp-Fd-U2d"/>
+                <outlet property="uiSub01_04" destination="TjJ-wY-NZK" id="vfz-8j-OrD"/>
+                <outlet property="uiSub02_01" destination="yio-Ct-tCF" id="UBt-Bo-hrK"/>
+                <outlet property="uiSub02_02" destination="PEw-y5-l09" id="gAt-tR-KBR"/>
+                <outlet property="uiSub02_03" destination="I71-u3-c7I" id="9DT-KQ-Yes"/>
+                <outlet property="uiSub02_04" destination="uUA-C7-zEc" id="ZAC-5U-oYg"/>
+                <outlet property="uiTop01" destination="Snh-cu-Hzd" id="Gcw-wc-ANJ"/>
+                <outlet property="uiTop02" destination="poe-Zt-Tg5" id="CGy-1F-vMs"/>
+                <outlet property="uiTopMenuGroup" destination="LnH-Ga-dcX" id="kg6-BS-oxu"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_01.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_01_highlit_noline.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_02.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_02_highlit_noline.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_04.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_01_04_highlit_noline.png" width="80" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_01.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_01_highlit_noline.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_02.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_02_highlit_noline.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_03.png" width="90" height="56"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_03_highlit_noline.png" width="90" height="56"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_04.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_subtopbar_02_04_highlit_noline.png" width="30" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_topbar_onetier.png" width="47" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_topbar_onetier_highlit.png" width="47" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_topbar_rlr.png" width="47" height="20"/>
+        <image name="vlg_arch_01_04_houseroom_topbar_rlr_highlit.png" width="47" height="20"/>
+        <image name="vlg_arch_01_05_1room.png" width="22" height="10"/>
+        <image name="vlg_arch_01_05_1room_lnl.png" width="57" height="10"/>
+        <image name="vlg_arch_01_05_2room.png" width="22" height="10"/>
+        <image name="vlg_arch_01_05_2room_lnl.png" width="57" height="10"/>
+        <image name="vlg_arch_01_05_3room.png" width="22" height="10"/>
+        <image name="vlg_arch_01_05_3room_lnl.png" width="57" height="10"/>
+        <image name="vlg_arch_01_05_4room_lnl.png" width="56" height="10"/>
+        <image name="vlg_arch_01_05_interiordeco_3dbottom_logo.png" width="73" height="10"/>
+        <image name="vlg_arch_01_05_sroom.png" width="22" height="10"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
