@@ -10,6 +10,8 @@
 @protocol IGeneralFullScreenSlideCell
 -(void)bcellOnShowDes;
 -(void)bcellOnHideDes;
+@optional
+-(void)didLoadImage;
 @end
 @interface GeneralFullScreenSlideCell : UIView
 -(id)initWithDesFile:(NSString*)des Bg:(NSString*)bg Delegate:(id<IGeneralFullScreenSlideCell>)del;
@@ -19,5 +21,5 @@
 -(void)setupVideoPlayer:(NSString*)videofile;
 -(void)stopVideo;
 -(BOOL)isDesWindowOverlay:(CGRect)rect;
-
+-(NSString*)getBgName;
 @end

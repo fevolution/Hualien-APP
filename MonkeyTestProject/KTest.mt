@@ -21,12 +21,14 @@ Button "spx back2map btn" Tap
 Button "spx plan map greentie btn" Tap
 Button "spx back2map btn" Tap
 Button "spx lion" Tap %thinktime=3000
-Button "spx lion horse bigbtn" Tap
-Button "common cross" Tap
+SpxLionShackView * Tap 300 300 %thinktime=3000
+Button "common cross" Tap %thinktime=3000
+#Button "spx eco" Tap
+#Button "common cross" Tap %thinktime=13000
 Button "gohome btn" Tap
 Button _uiVlg Tap
 Button "vlg interview" Tap
-Button "common cross" Tap
+Button "common cross" Tap %thinktime=3000
 UIViewControllerWrapperView * Tap
 Button "vlg designconcept" Tap
 UIViewControllerWrapperView * Tap
@@ -60,3 +62,4 @@ Scroller * Scroll 0 1258
 Button "vlg service" Tap
 Scroller * Scroll 0 859
 Button "gohome btn" Tap
+Debug * Print ---------

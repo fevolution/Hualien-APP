@@ -214,6 +214,7 @@
     if (iDelegate)
     {
         [iDelegate spxGoPlanHome];
+      iDelegate = nil;
     }
 }
 

@@ -130,7 +130,7 @@
     for (int i = 0; i <[iPageList count]; i++)
     {
         NSNumber* num = [iPageList objectAtIndex:i];
-        int iabs = fabsf(self.uiArchiSclView.contentOffset.y - [num integerValue]);
+        int iabs = fabs(self.uiArchiSclView.contentOffset.y - [num integerValue]);
         if (iabs<maxdef)
         {
             maxdef = iabs;

@@ -60,6 +60,7 @@ static NSString *const classVlgService = @"VlgService";
 }
 -(void)viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
     iActiveView = nil;
 }
 - (void)didReceiveMemoryWarning {

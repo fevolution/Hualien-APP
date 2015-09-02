@@ -1,1266 +1,134 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<detail  generated="2015-08-25 23:54:29.325 CST" projectPath="/Users/chuntachen/monkeytalk/workspace/MonkeyProject" agent="iOS v2.0.10_4 - 2014-12-13 17:09:42 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
-    <script  comp="Script" id="KTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script KTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1440516506433" stop="1440518069319" duration="1562.886" result="ok">
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="2" start="1440516506433" stop="1440516508941" duration="2.508" result="ok">
+<detail  generated="2015-09-01 18:15:41.638 CST" projectPath="/Users/chuntachen/Desktop/NewHualien/Hualien-APP/MonkeyTestProject" agent="iOS v2.0.10_4 - 2014-12-13 17:09:42 EST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="KTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script KTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1441102366028" stop="1441102541631" duration="175.603" result="ok">
+        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="2" start="1441102366028" stop="1441102368537" duration="2.509" result="ok">
         </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="3" start="1440516508942" stop="1440516511511" duration="2.569" result="ok">
+        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="3" start="1441102368537" stop="1441102371056" duration="2.519" result="ok">
         </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="4" start="1440516511512" stop="1440516514043" duration="2.531" result="ok">
+        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="4" start="1441102371056" stop="1441102373582" duration="2.526" result="ok">
         </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="5" start="1440516514043" stop="1440516516605" duration="2.562" result="ok">
+        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="5" start="1441102373583" stop="1441102376143" duration="2.56" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="6" start="1440516516605" stop="1440516519125" duration="2.52" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="6" start="1441102376143" stop="1441102378665" duration="2.522" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="7" start="1440516519125" stop="1440516521652" duration="2.527" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="7" start="1441102378666" stop="1441102381181" duration="2.515" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="8" start="1440516521652" stop="1440516524167" duration="2.515" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="8" start="1441102381181" stop="1441102383717" duration="2.536" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="9" start="1440516524168" stop="1440516526690" duration="2.522" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="9" start="1441102383717" stop="1441102386250" duration="2.533" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="10" start="1440516526690" stop="1440516529208" duration="2.518" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="10" start="1441102386254" stop="1441102388774" duration="2.52" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="11" start="1440516529209" stop="1440516531733" duration="2.524" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="11" start="1441102388774" stop="1441102391299" duration="2.525" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="12" start="1440516531733" stop="1440516534246" duration="2.513" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="12" start="1441102391300" stop="1441102393818" duration="2.518" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="13" start="1440516534246" stop="1440516536763" duration="2.517" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="13" start="1441102393818" stop="1441102396348" duration="2.53" result="ok">
         </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="14" start="1440516536763" stop="1440516539297" duration="2.534" result="ok">
+        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="14" start="1441102396348" stop="1441102398866" duration="2.518" result="ok">
         </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="15" start="1440516539298" stop="1440516541811" duration="2.513" result="ok">
+        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="15" start="1441102398866" stop="1441102401392" duration="2.526" result="ok">
         </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="16" start="1440516541812" stop="1440516544351" duration="2.539" result="ok">
+        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="16" start="1441102401392" stop="1441102403932" duration="2.54" result="ok">
         </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="17" start="1440516544351" stop="1440516546874" duration="2.523" result="ok">
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="17" start="1441102403932" stop="1441102406480" duration="2.548" result="ok">
         </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="18" start="1440516546874" stop="1440516549391" duration="2.517" result="ok">
+        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="18" start="1441102406480" stop="1441102408993" duration="2.513" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="19" start="1440516549391" stop="1440516551984" duration="2.593" result="ok">
+        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="19" start="1441102408993" stop="1441102411520" duration="2.527" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="20" start="1440516551984" stop="1440516554539" duration="2.555" result="ok">
+        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="20" start="1441102411520" stop="1441102414066" duration="2.546" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="21" start="1440516554540" stop="1440516557078" duration="2.538" result="ok">
+        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="21" start="1441102414066" stop="1441102416599" duration="2.533" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="22" start="1440516557078" stop="1440516559615" duration="2.537" result="ok">
+        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="22" start="1441102416599" stop="1441102419148" duration="2.549" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="23" start="1440516559615" stop="1440516562150" duration="2.535" result="ok">
+        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="23" start="1441102419148" stop="1441102421686" duration="2.538" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="24" start="1440516562150" stop="1440516565183" duration="3.033" result="ok">
+        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="24" start="1441102421686" stop="1441102424722" duration="3.036" result="ok">
         </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="25" start="1440516565183" stop="1440516567731" duration="2.548" result="ok">
+        <cmd  comp="SpxLionShackView" id="*" action="Tap" args="300 300" mods="%thinktime=2500 %timeout=5000" raw="SpxLionShackView * Tap 300 300 %thinktime=2500 %timeout=5000" idx="25" start="1441102424722" stop="1441102427747" duration="3.025" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="26" start="1440516567731" stop="1440516570246" duration="2.515" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="26" start="1441102427747" stop="1441102430282" duration="2.535" result="ok">
         </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="27" start="1440516570246" stop="1440516572778" duration="2.532" result="ok">
+        <cmd  comp="Button" id="spx eco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx eco&quot; Tap %thinktime=2500 %timeout=5000" idx="27" start="1441102430282" stop="1441102432883" duration="2.601" result="ok">
         </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="28" start="1440516572778" stop="1440516575291" duration="2.513" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="28" start="1441102432884" stop="1441102445944" duration="13.06" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="29" start="1440516575291" stop="1440516577812" duration="2.521" result="ok">
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="29" start="1441102445945" stop="1441102448508" duration="2.563" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="30" start="1440516577812" stop="1440516580331" duration="2.519" result="ok">
+        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="30" start="1441102448508" stop="1441102451033" duration="2.525" result="ok">
         </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="31" start="1440516580331" stop="1440516582842" duration="2.511" result="ok">
+        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="31" start="1441102451033" stop="1441102453563" duration="2.53" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="32" start="1440516582842" stop="1440516585412" duration="2.57" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="32" start="1441102453563" stop="1441102456593" duration="3.03" result="ok">
         </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="33" start="1440516585412" stop="1440516587926" duration="2.514" result="ok">
+        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="33" start="1441102456594" stop="1441102459102" duration="2.508" result="ok">
         </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="34" start="1440516587926" stop="1440516590436" duration="2.51" result="ok">
+        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="34" start="1441102459102" stop="1441102461634" duration="2.532" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="35" start="1440516590436" stop="1440516593019" duration="2.583" result="ok">
+        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="35" start="1441102461634" stop="1441102464144" duration="2.51" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="36" start="1440516593019" stop="1440516595566" duration="2.547" result="ok">
+        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="36" start="1441102464144" stop="1441102466667" duration="2.523" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="37" start="1440516595566" stop="1440516598087" duration="2.521" result="ok">
+        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="37" start="1441102466667" stop="1441102469211" duration="2.544" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="38" start="1440516598087" stop="1440516600608" duration="2.521" result="ok">
+        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="38" start="1441102469211" stop="1441102471790" duration="2.579" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="39" start="1440516600608" stop="1440516603130" duration="2.522" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="39" start="1441102471790" stop="1441102474314" duration="2.524" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="40" start="1440516603130" stop="1440516605647" duration="2.517" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="40" start="1441102474314" stop="1441102476846" duration="2.532" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="41" start="1440516605648" stop="1440516608175" duration="2.527" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="41" start="1441102476846" stop="1441102479368" duration="2.522" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="42" start="1440516608176" stop="1440516610691" duration="2.515" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="42" start="1441102479368" stop="1441102481904" duration="2.536" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="43" start="1440516610691" stop="1440516613213" duration="2.522" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="43" start="1441102481904" stop="1441102484439" duration="2.535" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="44" start="1440516613213" stop="1440516615727" duration="2.514" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="44" start="1441102484439" stop="1441102486972" duration="2.533" result="ok">
         </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="45" start="1440516615727" stop="1440516618247" duration="2.52" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="45" start="1441102486972" stop="1441102489506" duration="2.534" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="46" start="1440516618247" stop="1440516621178" duration="2.931" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="46" start="1441102489506" stop="1441102492049" duration="2.543" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="47" start="1440516621178" stop="1440516623740" duration="2.562" result="ok">
+        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="47" start="1441102492049" stop="1441102494577" duration="2.528" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="48" start="1440516623740" stop="1440516626251" duration="2.511" result="ok">
+        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="48" start="1441102494577" stop="1441102497126" duration="2.549" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="49" start="1440516626252" stop="1440516628805" duration="2.553" result="ok">
+        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="49" start="1441102497126" stop="1441102499674" duration="2.548" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="50" start="1440516628805" stop="1440516631320" duration="2.515" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="50" start="1441102499674" stop="1441102502214" duration="2.54" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="51" start="1440516631320" stop="1440516633868" duration="2.548" result="ok">
+        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="51" start="1441102502214" stop="1441102504771" duration="2.557" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="52" start="1440516633868" stop="1440516636379" duration="2.511" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="52" start="1441102504771" stop="1441102507289" duration="2.518" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="53" start="1440516636380" stop="1440516639332" duration="2.952" result="ok">
+        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="53" start="1441102507289" stop="1441102509842" duration="2.553" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="54" start="1440516639332" stop="1440516641904" duration="2.572" result="ok">
+        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="54" start="1441102509842" stop="1441102512371" duration="2.529" result="ok">
         </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="55" start="1440516641904" stop="1440516644481" duration="2.577" result="ok">
+        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="55" start="1441102512371" stop="1441102514929" duration="2.558" result="ok">
         </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="56" start="1440516644481" stop="1440516646996" duration="2.515" result="ok">
+        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="56" start="1441102514929" stop="1441102517498" duration="2.569" result="ok">
         </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="57" start="1440516646996" stop="1440516649514" duration="2.518" result="ok">
+        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="57" start="1441102517498" stop="1441102520077" duration="2.579" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="58" start="1440516649514" stop="1440516652038" duration="2.524" result="ok">
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="58" start="1441102520077" stop="1441102523166" duration="3.089" result="ok">
         </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="59" start="1440516652039" stop="1440516654965" duration="2.926" result="ok">
+        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="59" start="1441102523166" stop="1441102525691" duration="2.525" result="ok">
         </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="60" start="1440516654965" stop="1440516657493" duration="2.528" result="ok">
+        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="60" start="1441102525691" stop="1441102528220" duration="2.529" result="ok">
         </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="61" start="1440516657494" stop="1440516660411" duration="2.917" result="ok">
+        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="61" start="1441102528221" stop="1441102530737" duration="2.516" result="ok">
         </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="62" start="1440516660411" stop="1440516662931" duration="2.52" result="ok">
+        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="62" start="1441102530737" stop="1441102533656" duration="2.919" result="ok">
         </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="1" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 1 %thinktime=2500 %timeout=5000" idx="63" start="1440516662931" stop="1440516662933" duration="0.0020" result="ok">
-            <debug><![CDATA[1]]>
-            </debug>
+        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="63" start="1441102533656" stop="1441102536185" duration="2.529" result="ok">
         </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="64" start="1440516662933" stop="1440516665446" duration="2.513" result="ok">
+        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="64" start="1441102536185" stop="1441102539101" duration="2.916" result="ok">
         </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="65" start="1440516665446" stop="1440516667985" duration="2.539" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="66" start="1440516667986" stop="1440516670543" duration="2.557" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="67" start="1440516670543" stop="1440516673081" duration="2.538" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="68" start="1440516673082" stop="1440516675598" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="69" start="1440516675598" stop="1440516678113" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="70" start="1440516678113" stop="1440516680626" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="71" start="1440516680626" stop="1440516683140" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="72" start="1440516683140" stop="1440516685662" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="73" start="1440516685662" stop="1440516688176" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="74" start="1440516688177" stop="1440516690705" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="75" start="1440516690705" stop="1440516693218" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="76" start="1440516693218" stop="1440516695744" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="77" start="1440516695744" stop="1440516698257" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="78" start="1440516698257" stop="1440516700797" duration="2.54" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="79" start="1440516700798" stop="1440516703316" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="80" start="1440516703316" stop="1440516705829" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="81" start="1440516705829" stop="1440516708389" duration="2.56" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="82" start="1440516708389" stop="1440516710960" duration="2.571" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="83" start="1440516710960" stop="1440516713498" duration="2.538" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="84" start="1440516713498" stop="1440516716032" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="85" start="1440516716032" stop="1440516718565" duration="2.533" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="86" start="1440516718565" stop="1440516721599" duration="3.034" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="87" start="1440516721599" stop="1440516724145" duration="2.546" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="88" start="1440516724145" stop="1440516726669" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="89" start="1440516726669" stop="1440516729197" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="90" start="1440516729198" stop="1440516731708" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="91" start="1440516731708" stop="1440516734227" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="92" start="1440516734227" stop="1440516736748" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="93" start="1440516736749" stop="1440516739255" duration="2.506" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="94" start="1440516739256" stop="1440516742150" duration="2.894" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="95" start="1440516742150" stop="1440516744660" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="96" start="1440516744660" stop="1440516747175" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="97" start="1440516747177" stop="1440516749769" duration="2.592" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="98" start="1440516749769" stop="1440516752342" duration="2.573" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="99" start="1440516752342" stop="1440516754856" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="100" start="1440516754856" stop="1440516757373" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="101" start="1440516757373" stop="1440516759889" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="102" start="1440516759890" stop="1440516762646" duration="2.756" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="103" start="1440516762646" stop="1440516765161" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="104" start="1440516765161" stop="1440516767681" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="105" start="1440516767681" stop="1440516770199" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="106" start="1440516770199" stop="1440516772726" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="107" start="1440516772726" stop="1440516775241" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="108" start="1440516775241" stop="1440516777784" duration="2.543" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="109" start="1440516777785" stop="1440516780344" duration="2.559" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="110" start="1440516780344" stop="1440516782888" duration="2.544" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="111" start="1440516782888" stop="1440516785446" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="112" start="1440516785446" stop="1440516787961" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="113" start="1440516787961" stop="1440516790507" duration="2.546" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="114" start="1440516790507" stop="1440516793019" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="115" start="1440516793020" stop="1440516795648" duration="2.628" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="116" start="1440516795648" stop="1440516798252" duration="2.604" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="117" start="1440516798252" stop="1440516800806" duration="2.554" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="118" start="1440516800806" stop="1440516803326" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="119" start="1440516803326" stop="1440516805842" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="120" start="1440516805842" stop="1440516808359" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="121" start="1440516808359" stop="1440516811287" duration="2.928" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="122" start="1440516811287" stop="1440516813819" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="123" start="1440516813819" stop="1440516816749" duration="2.93" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="124" start="1440516816749" stop="1440516819275" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="2" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 2 %thinktime=2500 %timeout=5000" idx="125" start="1440516819275" stop="1440516819276" duration="0.0010" result="ok">
-            <debug><![CDATA[2]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="126" start="1440516819276" stop="1440516821794" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="127" start="1440516821794" stop="1440516824359" duration="2.565" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="128" start="1440516824359" stop="1440516826951" duration="2.592" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="129" start="1440516826951" stop="1440516829509" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="130" start="1440516829509" stop="1440516832030" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="131" start="1440516832030" stop="1440516834558" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="132" start="1440516834559" stop="1440516837073" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="133" start="1440516837073" stop="1440516839598" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="134" start="1440516839599" stop="1440516842114" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="135" start="1440516842114" stop="1440516844644" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="136" start="1440516844644" stop="1440516847163" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="137" start="1440516847163" stop="1440516849682" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="138" start="1440516849682" stop="1440516852196" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="139" start="1440516852196" stop="1440516854711" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="140" start="1440516854711" stop="1440516857256" duration="2.545" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="141" start="1440516857256" stop="1440516859787" duration="2.531" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="142" start="1440516859788" stop="1440516862296" duration="2.508" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="143" start="1440516862297" stop="1440516864891" duration="2.594" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="144" start="1440516864891" stop="1440516867487" duration="2.596" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="145" start="1440516867488" stop="1440516870036" duration="2.548" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="146" start="1440516870037" stop="1440516872578" duration="2.541" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="147" start="1440516872578" stop="1440516875109" duration="2.531" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="148" start="1440516875109" stop="1440516878142" duration="3.033" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="149" start="1440516878142" stop="1440516880700" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="150" start="1440516880700" stop="1440516883217" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="151" start="1440516883217" stop="1440516885749" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="152" start="1440516885749" stop="1440516888264" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="153" start="1440516888265" stop="1440516890793" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="154" start="1440516890793" stop="1440516893322" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="155" start="1440516893322" stop="1440516895838" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="156" start="1440516895840" stop="1440516898385" duration="2.545" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="157" start="1440516898385" stop="1440516900903" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="158" start="1440516900905" stop="1440516903418" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="159" start="1440516903418" stop="1440516906039" duration="2.621" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="160" start="1440516906039" stop="1440516908602" duration="2.563" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="161" start="1440516908602" stop="1440516911136" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="162" start="1440516911137" stop="1440516913657" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="163" start="1440516913658" stop="1440516916182" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="164" start="1440516916182" stop="1440516918703" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="165" start="1440516918706" stop="1440516921234" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="166" start="1440516921234" stop="1440516923750" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="167" start="1440516923750" stop="1440516926278" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="168" start="1440516926278" stop="1440516928799" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="169" start="1440516928800" stop="1440516931327" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="170" start="1440516931327" stop="1440516933914" duration="2.587" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="171" start="1440516933914" stop="1440516936474" duration="2.56" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="172" start="1440516936474" stop="1440516938995" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="173" start="1440516938996" stop="1440516941567" duration="2.571" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="174" start="1440516941567" stop="1440516944081" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="175" start="1440516944081" stop="1440516946632" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="176" start="1440516946632" stop="1440516949164" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="177" start="1440516949164" stop="1440516951823" duration="2.659" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="178" start="1440516951823" stop="1440516954450" duration="2.627" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="179" start="1440516954450" stop="1440516957014" duration="2.564" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="180" start="1440516957014" stop="1440516959531" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="181" start="1440516959531" stop="1440516962046" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="182" start="1440516962046" stop="1440516964600" duration="2.554" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="183" start="1440516964600" stop="1440516967522" duration="2.922" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="184" start="1440516967522" stop="1440516970096" duration="2.574" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="185" start="1440516970096" stop="1440516973019" duration="2.923" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="186" start="1440516973019" stop="1440516975545" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="3" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 3 %thinktime=2500 %timeout=5000" idx="187" start="1440516975545" stop="1440516975547" duration="0.0020" result="ok">
-            <debug><![CDATA[3]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="188" start="1440516975547" stop="1440516978061" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="189" start="1440516978061" stop="1440516980643" duration="2.582" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="190" start="1440516980643" stop="1440516983266" duration="2.623" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="191" start="1440516983267" stop="1440516985832" duration="2.565" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="192" start="1440516985832" stop="1440516988360" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="193" start="1440516988360" stop="1440516990875" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="194" start="1440516990875" stop="1440516993394" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="195" start="1440516993394" stop="1440516995915" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="196" start="1440516995915" stop="1440516998437" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="197" start="1440516998437" stop="1440517000957" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="198" start="1440517000957" stop="1440517003482" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="199" start="1440517003482" stop="1440517005996" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="200" start="1440517005996" stop="1440517008518" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="201" start="1440517008518" stop="1440517011033" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="202" start="1440517011033" stop="1440517013627" duration="2.594" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="203" start="1440517013627" stop="1440517016151" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="204" start="1440517016151" stop="1440517018669" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="205" start="1440517018669" stop="1440517021307" duration="2.638" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="206" start="1440517021307" stop="1440517023907" duration="2.6" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="207" start="1440517023908" stop="1440517026445" duration="2.537" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="208" start="1440517026445" stop="1440517028993" duration="2.548" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="209" start="1440517028993" stop="1440517031561" duration="2.568" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="210" start="1440517031562" stop="1440517034629" duration="3.067" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="211" start="1440517034629" stop="1440517037195" duration="2.566" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="212" start="1440517037196" stop="1440517039714" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="213" start="1440517039714" stop="1440517042247" duration="2.533" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="214" start="1440517042247" stop="1440517044766" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="215" start="1440517044766" stop="1440517047290" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="216" start="1440517047290" stop="1440517049817" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="217" start="1440517049817" stop="1440517052330" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="218" start="1440517052330" stop="1440517054923" duration="2.593" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="219" start="1440517054923" stop="1440517057433" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="220" start="1440517057433" stop="1440517059943" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="221" start="1440517059945" stop="1440517062609" duration="2.664" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="222" start="1440517062609" stop="1440517065162" duration="2.553" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="223" start="1440517065163" stop="1440517067680" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="224" start="1440517067680" stop="1440517070201" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="225" start="1440517070201" stop="1440517072720" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="226" start="1440517072721" stop="1440517075242" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="227" start="1440517075243" stop="1440517077762" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="228" start="1440517077762" stop="1440517080289" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="229" start="1440517080289" stop="1440517082812" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="230" start="1440517082812" stop="1440517085335" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="231" start="1440517085335" stop="1440517087851" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="232" start="1440517087851" stop="1440517090444" duration="2.593" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="233" start="1440517090444" stop="1440517093006" duration="2.562" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="234" start="1440517093006" stop="1440517095532" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="235" start="1440517095532" stop="1440517098082" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="236" start="1440517098082" stop="1440517100616" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="237" start="1440517100616" stop="1440517103167" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="238" start="1440517103167" stop="1440517105692" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="239" start="1440517105692" stop="1440517108319" duration="2.627" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="240" start="1440517108319" stop="1440517110933" duration="2.614" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="241" start="1440517110933" stop="1440517113489" duration="2.556" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="242" start="1440517113489" stop="1440517116006" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="243" start="1440517116007" stop="1440517118525" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="244" start="1440517118525" stop="1440517121047" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="245" start="1440517121047" stop="1440517123985" duration="2.938" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="246" start="1440517123985" stop="1440517126555" duration="2.57" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="247" start="1440517126555" stop="1440517129498" duration="2.943" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="248" start="1440517129498" stop="1440517132020" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="4" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 4 %thinktime=2500 %timeout=5000" idx="249" start="1440517132020" stop="1440517132023" duration="0.0030" result="ok">
-            <debug><![CDATA[4]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="250" start="1440517132023" stop="1440517134530" duration="2.507" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="251" start="1440517134531" stop="1440517137052" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="252" start="1440517137052" stop="1440517139632" duration="2.58" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="253" start="1440517139632" stop="1440517142184" duration="2.552" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="254" start="1440517142184" stop="1440517144706" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="255" start="1440517144707" stop="1440517147228" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="256" start="1440517147228" stop="1440517149752" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="257" start="1440517149752" stop="1440517152282" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="258" start="1440517152282" stop="1440517154798" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="259" start="1440517154798" stop="1440517157319" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="260" start="1440517157319" stop="1440517159840" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="261" start="1440517159841" stop="1440517162373" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="262" start="1440517162373" stop="1440517164890" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="263" start="1440517164890" stop="1440517167410" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="264" start="1440517167410" stop="1440517169951" duration="2.541" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="265" start="1440517169951" stop="1440517172485" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="266" start="1440517172485" stop="1440517175001" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="267" start="1440517175001" stop="1440517177631" duration="2.63" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="268" start="1440517177631" stop="1440517180201" duration="2.57" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="269" start="1440517180201" stop="1440517182759" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="270" start="1440517182759" stop="1440517185295" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="271" start="1440517185295" stop="1440517187832" duration="2.537" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="272" start="1440517187832" stop="1440517190865" duration="3.033" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="273" start="1440517190865" stop="1440517193448" duration="2.583" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="274" start="1440517193448" stop="1440517195962" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="275" start="1440517195964" stop="1440517198498" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="276" start="1440517198498" stop="1440517201014" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="277" start="1440517201014" stop="1440517203582" duration="2.568" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="278" start="1440517203582" stop="1440517206102" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="279" start="1440517206102" stop="1440517208612" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="280" start="1440517208614" stop="1440517211142" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="281" start="1440517211142" stop="1440517213654" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="282" start="1440517213654" stop="1440517216172" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="283" start="1440517216172" stop="1440517218714" duration="2.542" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="284" start="1440517218714" stop="1440517221264" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="285" start="1440517221265" stop="1440517223784" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="286" start="1440517223785" stop="1440517226301" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="287" start="1440517226301" stop="1440517228826" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="288" start="1440517228828" stop="1440517231347" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="289" start="1440517231348" stop="1440517233880" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="290" start="1440517233880" stop="1440517236393" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="291" start="1440517236393" stop="1440517238922" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="292" start="1440517238923" stop="1440517241441" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="293" start="1440517241441" stop="1440517243966" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="294" start="1440517243967" stop="1440517246581" duration="2.614" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="295" start="1440517246581" stop="1440517249200" duration="2.619" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="296" start="1440517249200" stop="1440517251730" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="297" start="1440517251730" stop="1440517254285" duration="2.555" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="298" start="1440517254285" stop="1440517256815" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="299" start="1440517256815" stop="1440517259379" duration="2.564" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="300" start="1440517259380" stop="1440517261899" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="301" start="1440517261899" stop="1440517264537" duration="2.638" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="302" start="1440517264537" stop="1440517267099" duration="2.562" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="303" start="1440517267099" stop="1440517269664" duration="2.565" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="304" start="1440517269664" stop="1440517272181" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="305" start="1440517272182" stop="1440517274710" duration="2.528" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="306" start="1440517274710" stop="1440517277235" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="307" start="1440517277236" stop="1440517280172" duration="2.936" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="308" start="1440517280172" stop="1440517282697" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="309" start="1440517282697" stop="1440517285635" duration="2.938" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="310" start="1440517285635" stop="1440517288161" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="5" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 5 %thinktime=2500 %timeout=5000" idx="311" start="1440517288161" stop="1440517288163" duration="0.0020" result="ok">
-            <debug><![CDATA[5]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="312" start="1440517288164" stop="1440517290677" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="313" start="1440517290677" stop="1440517293254" duration="2.577" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="314" start="1440517293254" stop="1440517295836" duration="2.582" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="315" start="1440517295836" stop="1440517298384" duration="2.548" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="316" start="1440517298384" stop="1440517300910" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="317" start="1440517300910" stop="1440517303424" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="318" start="1440517303424" stop="1440517305945" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="319" start="1440517305945" stop="1440517308465" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="320" start="1440517308465" stop="1440517310992" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="321" start="1440517310992" stop="1440517313514" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="322" start="1440517313514" stop="1440517316033" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="323" start="1440517316033" stop="1440517318553" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="324" start="1440517318556" stop="1440517321073" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="325" start="1440517321073" stop="1440517323590" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="326" start="1440517323590" stop="1440517326146" duration="2.556" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="327" start="1440517326146" stop="1440517328670" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="328" start="1440517328675" stop="1440517331190" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="329" start="1440517331190" stop="1440517333776" duration="2.586" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="330" start="1440517333776" stop="1440517336356" duration="2.58" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="331" start="1440517336356" stop="1440517338898" duration="2.542" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="332" start="1440517338899" stop="1440517341437" duration="2.538" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="333" start="1440517341437" stop="1440517343973" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="334" start="1440517343973" stop="1440517347004" duration="3.031" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="335" start="1440517347004" stop="1440517349552" duration="2.548" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="336" start="1440517349552" stop="1440517352084" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="337" start="1440517352084" stop="1440517354614" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="338" start="1440517354614" stop="1440517357125" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="339" start="1440517357126" stop="1440517359645" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="340" start="1440517359645" stop="1440517362176" duration="2.531" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="341" start="1440517362176" stop="1440517364688" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="342" start="1440517364688" stop="1440517367265" duration="2.577" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="343" start="1440517367265" stop="1440517369776" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="344" start="1440517369776" stop="1440517372294" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="345" start="1440517372295" stop="1440517374864" duration="2.569" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="346" start="1440517374864" stop="1440517377414" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="347" start="1440517377414" stop="1440517379926" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="348" start="1440517379926" stop="1440517382451" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="349" start="1440517382451" stop="1440517384970" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="350" start="1440517384973" stop="1440517387486" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="351" start="1440517387486" stop="1440517390010" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="352" start="1440517390010" stop="1440517392532" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="353" start="1440517392532" stop="1440517395053" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="354" start="1440517395053" stop="1440517397589" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="355" start="1440517397590" stop="1440517400103" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="356" start="1440517400103" stop="1440517402719" duration="2.616" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="357" start="1440517402719" stop="1440517405343" duration="2.624" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="358" start="1440517405343" stop="1440517407863" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="359" start="1440517407863" stop="1440517410418" duration="2.555" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="360" start="1440517410419" stop="1440517412943" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="361" start="1440517412943" stop="1440517415492" duration="2.549" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="362" start="1440517415492" stop="1440517418006" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="363" start="1440517418007" stop="1440517421000" duration="2.993" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="364" start="1440517421000" stop="1440517423647" duration="2.647" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="365" start="1440517423647" stop="1440517426202" duration="2.555" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="366" start="1440517426202" stop="1440517428719" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="367" start="1440517428719" stop="1440517431232" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="368" start="1440517431232" stop="1440517433783" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="369" start="1440517433783" stop="1440517436699" duration="2.916" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="370" start="1440517436699" stop="1440517439245" duration="2.546" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="371" start="1440517439245" stop="1440517442158" duration="2.913" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="372" start="1440517442158" stop="1440517444721" duration="2.563" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="6" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 6 %thinktime=2500 %timeout=5000" idx="373" start="1440517444721" stop="1440517444722" duration="0.0010" result="ok">
-            <debug><![CDATA[6]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="374" start="1440517444722" stop="1440517447233" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="375" start="1440517447233" stop="1440517449810" duration="2.577" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="376" start="1440517449810" stop="1440517452425" duration="2.615" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="377" start="1440517452425" stop="1440517454986" duration="2.561" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="378" start="1440517454986" stop="1440517457502" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="379" start="1440517457503" stop="1440517460029" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="380" start="1440517460029" stop="1440517462544" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="381" start="1440517462544" stop="1440517465067" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="382" start="1440517465067" stop="1440517467582" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="383" start="1440517467582" stop="1440517470106" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="384" start="1440517470107" stop="1440517472619" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="385" start="1440517472619" stop="1440517475144" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="386" start="1440517475144" stop="1440517477657" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="387" start="1440517477657" stop="1440517480169" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="388" start="1440517480172" stop="1440517482753" duration="2.581" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="389" start="1440517482753" stop="1440517485277" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="390" start="1440517485277" stop="1440517487787" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="391" start="1440517487788" stop="1440517490445" duration="2.657" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="392" start="1440517490445" stop="1440517493104" duration="2.659" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="393" start="1440517493104" stop="1440517495647" duration="2.543" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="394" start="1440517495648" stop="1440517498192" duration="2.544" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="395" start="1440517498192" stop="1440517500724" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="396" start="1440517500724" stop="1440517503777" duration="3.053" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="397" start="1440517503777" stop="1440517506384" duration="2.607" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="398" start="1440517506384" stop="1440517508898" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="399" start="1440517508898" stop="1440517511427" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="400" start="1440517511428" stop="1440517513949" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="401" start="1440517513950" stop="1440517516486" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="402" start="1440517516487" stop="1440517519008" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="403" start="1440517519008" stop="1440517521527" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="404" start="1440517521529" stop="1440517524113" duration="2.584" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="405" start="1440517524114" stop="1440517526630" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="406" start="1440517526630" stop="1440517529145" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="407" start="1440517529148" stop="1440517531798" duration="2.65" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="408" start="1440517531798" stop="1440517534368" duration="2.57" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="409" start="1440517534368" stop="1440517536894" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="410" start="1440517536894" stop="1440517539409" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="411" start="1440517539409" stop="1440517541938" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="412" start="1440517541938" stop="1440517544452" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="413" start="1440517544452" stop="1440517546986" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="414" start="1440517546986" stop="1440517549500" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="415" start="1440517549500" stop="1440517552029" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="416" start="1440517552029" stop="1440517554542" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="417" start="1440517554542" stop="1440517557078" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="418" start="1440517557078" stop="1440517559675" duration="2.597" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="419" start="1440517559675" stop="1440517562285" duration="2.61" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="420" start="1440517562285" stop="1440517564802" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="421" start="1440517564802" stop="1440517567353" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="422" start="1440517567354" stop="1440517569870" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="423" start="1440517569870" stop="1440517572420" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="424" start="1440517572420" stop="1440517574930" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="425" start="1440517574930" stop="1440517577596" duration="2.666" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="426" start="1440517577596" stop="1440517580227" duration="2.631" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="427" start="1440517580227" stop="1440517582791" duration="2.564" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="428" start="1440517582791" stop="1440517585314" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="429" start="1440517585314" stop="1440517587837" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="430" start="1440517587837" stop="1440517590396" duration="2.559" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="431" start="1440517590396" stop="1440517593313" duration="2.917" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="432" start="1440517593314" stop="1440517595880" duration="2.566" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="433" start="1440517595880" stop="1440517598794" duration="2.914" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="434" start="1440517598794" stop="1440517601311" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="7" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 7 %thinktime=2500 %timeout=5000" idx="435" start="1440517601312" stop="1440517601313" duration="0.0010" result="ok">
-            <debug><![CDATA[7]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="436" start="1440517601313" stop="1440517603823" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="437" start="1440517603823" stop="1440517606392" duration="2.569" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="438" start="1440517606392" stop="1440517609014" duration="2.622" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="439" start="1440517609014" stop="1440517611560" duration="2.546" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="440" start="1440517611562" stop="1440517614085" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="441" start="1440517614085" stop="1440517616600" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="442" start="1440517616600" stop="1440517619118" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="443" start="1440517619118" stop="1440517621635" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="444" start="1440517621635" stop="1440517624157" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="445" start="1440517624157" stop="1440517626668" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="446" start="1440517626669" stop="1440517629187" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="447" start="1440517629187" stop="1440517631699" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="448" start="1440517631699" stop="1440517634230" duration="2.531" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="449" start="1440517634230" stop="1440517636744" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="450" start="1440517636744" stop="1440517639282" duration="2.538" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="451" start="1440517639282" stop="1440517641799" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="452" start="1440517641799" stop="1440517644314" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="453" start="1440517644314" stop="1440517646958" duration="2.644" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="454" start="1440517646958" stop="1440517649634" duration="2.676" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="455" start="1440517649636" stop="1440517652172" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="456" start="1440517652173" stop="1440517654796" duration="2.623" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="457" start="1440517654796" stop="1440517657330" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="458" start="1440517657330" stop="1440517660382" duration="3.052" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="459" start="1440517660382" stop="1440517662923" duration="2.541" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="460" start="1440517662923" stop="1440517665445" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="461" start="1440517665445" stop="1440517667972" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="462" start="1440517667972" stop="1440517670480" duration="2.508" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="463" start="1440517670480" stop="1440517673000" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="464" start="1440517673000" stop="1440517675520" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="465" start="1440517675520" stop="1440517678029" duration="2.509" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="466" start="1440517678029" stop="1440517680571" duration="2.542" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="467" start="1440517680571" stop="1440517683082" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="468" start="1440517683082" stop="1440517685590" duration="2.508" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="469" start="1440517685592" stop="1440517688180" duration="2.588" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="470" start="1440517688180" stop="1440517690734" duration="2.554" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="471" start="1440517690734" stop="1440517693249" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="472" start="1440517693250" stop="1440517695767" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="473" start="1440517695767" stop="1440517698281" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="474" start="1440517698281" stop="1440517700795" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="475" start="1440517700797" stop="1440517703311" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="476" start="1440517703312" stop="1440517705830" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="477" start="1440517705830" stop="1440517708344" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="478" start="1440517708344" stop="1440517710869" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="479" start="1440517710869" stop="1440517713382" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="480" start="1440517713382" stop="1440517715934" duration="2.552" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="481" start="1440517715934" stop="1440517718501" duration="2.567" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="482" start="1440517718501" stop="1440517721017" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="483" start="1440517721017" stop="1440517723574" duration="2.557" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="484" start="1440517723574" stop="1440517726095" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="485" start="1440517726096" stop="1440517728642" duration="2.546" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="486" start="1440517728643" stop="1440517731162" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="487" start="1440517731162" stop="1440517733713" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="488" start="1440517733713" stop="1440517736266" duration="2.553" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="489" start="1440517736266" stop="1440517738822" duration="2.556" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="490" start="1440517738822" stop="1440517741334" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="491" start="1440517741334" stop="1440517743847" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="492" start="1440517743848" stop="1440517746408" duration="2.56" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="493" start="1440517746408" stop="1440517749328" duration="2.92" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="494" start="1440517749328" stop="1440517751855" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="495" start="1440517751855" stop="1440517754776" duration="2.921" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="496" start="1440517754776" stop="1440517757296" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="8" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 8 %thinktime=2500 %timeout=5000" idx="497" start="1440517757297" stop="1440517757297" duration="0.0" result="ok">
-            <debug><![CDATA[8]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="498" start="1440517757297" stop="1440517759805" duration="2.508" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="499" start="1440517759805" stop="1440517762364" duration="2.559" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="500" start="1440517762364" stop="1440517764890" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="501" start="1440517764896" stop="1440517767445" duration="2.549" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="502" start="1440517767445" stop="1440517769963" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="503" start="1440517769963" stop="1440517772490" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="504" start="1440517772490" stop="1440517775002" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="505" start="1440517775004" stop="1440517777524" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="506" start="1440517777524" stop="1440517780040" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="507" start="1440517780041" stop="1440517782698" duration="2.657" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="508" start="1440517782698" stop="1440517785217" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="509" start="1440517785217" stop="1440517787734" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="510" start="1440517787734" stop="1440517790244" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="511" start="1440517790245" stop="1440517792759" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="512" start="1440517792760" stop="1440517795294" duration="2.534" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="513" start="1440517795295" stop="1440517797818" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="514" start="1440517797819" stop="1440517800331" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="515" start="1440517800331" stop="1440517802971" duration="2.64" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="516" start="1440517802972" stop="1440517805570" duration="2.598" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="517" start="1440517805570" stop="1440517808110" duration="2.54" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="518" start="1440517808110" stop="1440517810645" duration="2.535" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="519" start="1440517810645" stop="1440517813184" duration="2.539" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="520" start="1440517813184" stop="1440517816246" duration="3.062" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="521" start="1440517816246" stop="1440517818843" duration="2.597" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="522" start="1440517818843" stop="1440517821362" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="523" start="1440517821362" stop="1440517823892" duration="2.53" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="524" start="1440517823892" stop="1440517826404" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="525" start="1440517826404" stop="1440517828924" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="526" start="1440517828924" stop="1440517831451" duration="2.527" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="527" start="1440517831451" stop="1440517833962" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="528" start="1440517833963" stop="1440517836528" duration="2.565" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="529" start="1440517836528" stop="1440517839039" duration="2.511" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="530" start="1440517839041" stop="1440517841554" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="531" start="1440517841554" stop="1440517844138" duration="2.584" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="532" start="1440517844138" stop="1440517846696" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="533" start="1440517846696" stop="1440517849216" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="534" start="1440517849217" stop="1440517851740" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="535" start="1440517851740" stop="1440517854258" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="536" start="1440517854258" stop="1440517856778" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="537" start="1440517856779" stop="1440517859304" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="538" start="1440517859304" stop="1440517861824" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="539" start="1440517861824" stop="1440517864345" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="540" start="1440517864345" stop="1440517866863" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="541" start="1440517866863" stop="1440517869384" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="542" start="1440517869384" stop="1440517872313" duration="2.929" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="543" start="1440517872313" stop="1440517874870" duration="2.557" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="544" start="1440517874870" stop="1440517877383" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="545" start="1440517877386" stop="1440517879942" duration="2.556" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="546" start="1440517879942" stop="1440517882457" duration="2.515" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="547" start="1440517882457" stop="1440517885006" duration="2.549" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="548" start="1440517885006" stop="1440517887529" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="549" start="1440517887530" stop="1440517890277" duration="2.747" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="550" start="1440517890277" stop="1440517892874" duration="2.597" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="551" start="1440517892875" stop="1440517895424" duration="2.549" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="552" start="1440517895424" stop="1440517897937" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="553" start="1440517897937" stop="1440517900462" duration="2.525" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="554" start="1440517900462" stop="1440517902981" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="555" start="1440517902982" stop="1440517905898" duration="2.916" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="556" start="1440517905898" stop="1440517908460" duration="2.562" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="557" start="1440517908460" stop="1440517911386" duration="2.926" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="558" start="1440517911386" stop="1440517913905" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="9" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 9 %thinktime=2500 %timeout=5000" idx="559" start="1440517913905" stop="1440517913906" duration="0.0010" result="ok">
-            <debug><![CDATA[9]]>
-            </debug>
-        </cmd>
-        <cmd  comp="Button" id="_uiHL" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiHL Tap %thinktime=2500 %timeout=5000" idx="560" start="1440517913906" stop="1440517916415" duration="2.509" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="561" start="1440517916415" stop="1440517918931" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="562" start="1440517918932" stop="1440517921458" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl tg farm" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl tg farm&quot; Tap %thinktime=2500 %timeout=5000" idx="563" start="1440517921458" stop="1440517924028" duration="2.57" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="564" start="1440517924029" stop="1440517926545" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="565" start="1440517926545" stop="1440517929061" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="566" start="1440517929061" stop="1440517931582" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="567" start="1440517931584" stop="1440517934094" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="568" start="1440517934094" stop="1440517936618" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="569" start="1440517936619" stop="1440517939135" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="570" start="1440517939135" stop="1440517941652" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="571" start="1440517941652" stop="1440517944164" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="HLTourGuide" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="HLTourGuide iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="572" start="1440517944164" stop="1440517946702" duration="2.538" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="573" start="1440517946702" stop="1440517949212" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="hl intro submenu" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;hl intro submenu&quot; Tap %thinktime=2500 %timeout=5000" idx="574" start="1440517949212" stop="1440517951763" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="575" start="1440517951763" stop="1440517954286" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiSpx" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiSpx Tap %thinktime=2500 %timeout=5000" idx="576" start="1440517954286" stop="1440517956805" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan&quot; Tap %thinktime=2500 %timeout=5000" idx="577" start="1440517956805" stop="1440517959321" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map cinema btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map cinema btn&quot; Tap %thinktime=2500 %timeout=5000" idx="578" start="1440517959322" stop="1440517961854" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="579" start="1440517961854" stop="1440517964393" duration="2.539" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx plan map greentie btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx plan map greentie btn&quot; Tap %thinktime=2500 %timeout=5000" idx="580" start="1440517964393" stop="1440517966925" duration="2.532" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx back2map btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx back2map btn&quot; Tap %thinktime=2500 %timeout=5000" idx="581" start="1440517966925" stop="1440517969462" duration="2.537" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion&quot; Tap %thinktime=2500 %timeout=5000" idx="582" start="1440517969462" stop="1440517972492" duration="3.03" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="spx lion horse bigbtn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;spx lion horse bigbtn&quot; Tap %thinktime=2500 %timeout=5000" idx="583" start="1440517972492" stop="1440517975028" duration="2.536" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="584" start="1440517975028" stop="1440517977542" duration="2.514" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="585" start="1440517977542" stop="1440517980073" duration="2.531" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlg" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlg Tap %thinktime=2500 %timeout=5000" idx="586" start="1440517980073" stop="1440517982589" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interview" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interview&quot; Tap %thinktime=2500 %timeout=5000" idx="587" start="1440517982589" stop="1440517985111" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="588" start="1440517985111" stop="1440517987635" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="589" start="1440517987636" stop="1440517990144" duration="2.508" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg designconcept" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg designconcept&quot; Tap %thinktime=2500 %timeout=5000" idx="590" start="1440517990144" stop="1440517992665" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="591" start="1440517992665" stop="1440517995177" duration="2.512" result="ok">
-        </cmd>
-        <cmd  comp="UIViewControllerWrapperView" id="*" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="UIViewControllerWrapperView * Tap %thinktime=2500 %timeout=5000" idx="592" start="1440517995177" stop="1440517997687" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg compath" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg compath&quot; Tap %thinktime=2500 %timeout=5000" idx="593" start="1440517997687" stop="1440518000229" duration="2.542" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 02 btn indoorrun" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 02 btn indoorrun&quot; Tap %thinktime=2500 %timeout=5000" idx="594" start="1440518000229" stop="1440518002778" duration="2.549" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="595" start="1440518002778" stop="1440518005299" duration="2.521" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="596" start="1440518005299" stop="1440518007822" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="597" start="1440518007822" stop="1440518010340" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="598" start="1440518010340" stop="1440518012859" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="599" start="1440518012860" stop="1440518015379" duration="2.519" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="600" start="1440518015379" stop="1440518017905" duration="2.526" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="601" start="1440518017906" stop="1440518020422" duration="2.516" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="602" start="1440518020422" stop="1440518022951" duration="2.529" result="ok">
-        </cmd>
-        <cmd  comp="VlgComPath" id="iActiveView" action="Swipe" args="Left" mods="%thinktime=2500 %timeout=5000" raw="VlgComPath iActiveView Swipe Left %thinktime=2500 %timeout=5000" idx="603" start="1440518022951" stop="1440518025461" duration="2.51" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interpub" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interpub&quot; Tap %thinktime=2500 %timeout=5000" idx="604" start="1440518025461" stop="1440518028019" duration="2.558" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 north nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 north nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="605" start="1440518028019" stop="1440518030574" duration="2.555" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="606" start="1440518030575" stop="1440518033097" duration="2.522" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 south nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 south nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="607" start="1440518033097" stop="1440518035647" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="608" start="1440518035647" stop="1440518038165" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg 01 03 west nail01" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg 01 03 west nail01&quot; Tap %thinktime=2500 %timeout=5000" idx="609" start="1440518038165" stop="1440518040716" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross&quot; Tap %thinktime=2500 %timeout=5000" idx="610" start="1440518040716" stop="1440518043234" duration="2.518" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg roomtype" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg roomtype&quot; Tap %thinktime=2500 %timeout=5000" idx="611" start="1440518043234" stop="1440518045784" duration="2.55" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg interdeco" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg interdeco&quot; Tap %thinktime=2500 %timeout=5000" idx="612" start="1440518045784" stop="1440518048341" duration="2.557" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="613" start="1440518048341" stop="1440518050892" duration="2.551" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="_uiVlgFtr" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button _uiVlgFtr Tap %thinktime=2500 %timeout=5000" idx="614" start="1440518050892" stop="1440518053405" duration="2.513" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="common cross white" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;common cross white&quot; Tap %thinktime=2500 %timeout=5000" idx="615" start="1440518053405" stop="1440518055922" duration="2.517" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg smart" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg smart&quot; Tap %thinktime=2500 %timeout=5000" idx="616" start="1440518055922" stop="1440518058445" duration="2.523" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 1258" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 1258 %thinktime=2500 %timeout=5000" idx="617" start="1440518058446" stop="1440518061361" duration="2.915" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="vlg service" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;vlg service&quot; Tap %thinktime=2500 %timeout=5000" idx="618" start="1440518061361" stop="1440518063885" duration="2.524" result="ok">
-        </cmd>
-        <cmd  comp="Scroller" id="*" action="Scroll" args="0 859" mods="%thinktime=2500 %timeout=5000" raw="Scroller * Scroll 0 859 %thinktime=2500 %timeout=5000" idx="619" start="1440518063885" stop="1440518066798" duration="2.913" result="ok">
-        </cmd>
-        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="620" start="1440518066798" stop="1440518069318" duration="2.52" result="ok">
-        </cmd>
-        <cmd  comp="Debug" id="*" action="Print" args="10" mods="%thinktime=2500 %timeout=5000" raw="Debug * Print 10 %thinktime=2500 %timeout=5000" idx="621" start="1440518069318" stop="1440518069319" duration="0.0010" result="ok">
-            <debug><![CDATA[10]]>
-            </debug>
+        <cmd  comp="Button" id="gohome btn" action="Tap" mods="%thinktime=2500 %timeout=5000" raw="Button &quot;gohome btn&quot; Tap %thinktime=2500 %timeout=5000" idx="65" start="1441102539101" stop="1441102541631" duration="2.53" result="ok">
         </cmd>
     </script>
 </detail>

@@ -43,6 +43,10 @@
 
 @implementation GeneralFullScreenSlideCell
 @synthesize uiDownBtn, uiUpBtn;
+-(NSString*)getBgName
+{
+  return self.iBgFileName;
+}
 -(id)initWithDesFile:(NSString*)des Bg:(NSString*)bg Delegate:(id<IGeneralFullScreenSlideCell>)del
 {
     self = [[[NSBundle mainBundle] loadNibNamed:@"GeneralFullScreenSlideCell" owner:nil options:nil] lastObject];
@@ -89,19 +93,19 @@
 }
 -(void)didMoveToSuperview
 {
-    
     if (iInit==NO)
     {
         if (self.iBgFileName)
         {
 #ifdef IMGLOAD_USE_MAINTHREAD
+          dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            UIImage* uiBsImg = [UIImage imageNamed:self.iBgFileName];
             dispatch_async(dispatch_get_main_queue(), ^{
-            @autoreleasepool {
-                UIImage* img = [[UIImageSrcMng sharedManager] requestImage:self.iBgFileName];
-                [self.uiBgImgView setImage:img];
-                [self.uiActView stopAnimating];
-            }
-           });
+              [self.uiBgImgView setImage:uiBsImg];
+              [self.uiActView stopAnimating];
+              [iDelegate didLoadImage];
+            });
+          });
 #else
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
                 NSString *myImagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:self.iBgFileName];
@@ -423,12 +427,10 @@
     CGRect prect = CGRectMake(p.x-TOUCH_ENHANCEMENT_WH/2, p.y-TOUCH_ENHANCEMENT_WH/2, TOUCH_ENHANCEMENT_WH, TOUCH_ENHANCEMENT_WH);
     if ( self.uiDesImgView.hidden==NO && CGRectIntersectsRect(prect, uiUpBtn.frame) )
     {
-        NSLog(@"dummy rect up");
         [self onUpClick:nil];
     }
     else if ( self.uiCapImgView.hidden==NO && CGRectIntersectsRect(prect, uiDownBtn.frame))
     {
-        NSLog(@"dummy rect down");
         [self onDownClick:nil];
     }
 }

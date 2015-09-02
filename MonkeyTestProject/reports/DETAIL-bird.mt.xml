@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-09-01 17:27:44.066 CST" projectPath="/Users/chuntachen/Desktop/NewHualien/Hualien-APP/MonkeyTestProject" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="bird.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script bird.mt Run %thinktime=500 %timeout=2000" idx="1" start="1441099635058" stop="1441099664066" duration="29.008" screenshot="screenshots/screenshot_2015-09-01_172744.png" result="failure">
+        <cmd  comp="SpxLionShackView" id="*" action="Tap" args="300 300" mods="%thinktime=1500 %timeout=5000" raw="SpxLionShackView * Tap 300 300 %thinktime=1500 %timeout=5000" idx="2" start="1441099635058" stop="1441099636815" duration="1.757" result="ok">
+        </cmd>
+        <cmd  comp="SpxLionShackView" id="*" action="Tap" args="300 200" mods="%thinktime=1500 %timeout=5000" raw="SpxLionShackView * Tap 300 200 %thinktime=1500 %timeout=5000" idx="3" start="1441099636815" stop="1441099664066" duration="27.251" screenshot="screenshots/screenshot_2015-09-01_172744.png" result="failure">
+            <msg><![CDATA[No SpxLionShackView found with monkeyID "#1"]]>
+            </msg>
+        </cmd>
+    </script>
+</detail>

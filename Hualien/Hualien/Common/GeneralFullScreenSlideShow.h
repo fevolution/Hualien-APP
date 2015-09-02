@@ -19,4 +19,6 @@
 -(void)createCellByIndex:(int)index;
 -(void)setupVideoPlayer:(NSString*)videofile Index:(int)index;
 -(void)disableAllArrow;
+-(void)enableAutoRun;
+-(void)disableAutoRun;
 @end

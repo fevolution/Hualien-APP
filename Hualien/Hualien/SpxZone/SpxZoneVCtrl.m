@@ -42,6 +42,7 @@ static NSString *const classEcoShackView = @"SpxEcoView";
 }
 -(void)viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
     iActiveView = nil;
 }
 - (void)didReceiveMemoryWarning {
@@ -117,6 +118,7 @@ static NSString *const classEcoShackView = @"SpxEcoView";
     self.uiBackHome.hidden = NO;
     self.uiPlan.selected = YES;
     self.uiLion.selected = NO;
+    self.uiEco.selected = NO;
     [self switchToViewByString:classPlanView];
     //[self openMenu];
 }
@@ -126,6 +128,7 @@ static NSString *const classEcoShackView = @"SpxEcoView";
     self.uiBackHome.hidden = NO;
     self.uiLion.selected = YES;
     self.uiPlan.selected = NO;
+    self.uiEco.selected = NO;
     [self switchToViewByString:classLionShackView];
     //[self openMenu];
 }

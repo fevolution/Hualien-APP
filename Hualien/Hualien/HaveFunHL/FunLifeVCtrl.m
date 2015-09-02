@@ -44,6 +44,7 @@ static NSString *const classHLTourGuide = @"HLTourGuide";
 
 -(void)viewDidDisappear:(BOOL)animated
 {
+    [super viewDidDisappear:animated];
     iActiveView = nil;
 }
 - (void)didReceiveMemoryWarning {

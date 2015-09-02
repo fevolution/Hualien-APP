@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
@@ -10,6 +9,7 @@
                 <outlet property="uiCross" destination="7Gk-UR-14z" id="OmS-Qx-SeC"/>
                 <outlet property="uiLeftArrow" destination="2uP-un-4gn" id="67I-kv-gJA"/>
                 <outlet property="uiRightArrow" destination="Apl-LR-505" id="fLj-Na-zR6"/>
+                <outlet property="uiSpinner" destination="VYC-Hl-Pgy" id="w1y-1l-dwf"/>
                 <outlet property="view" destination="iN0-l3-epB" id="F3H-S5-P95"/>
             </connections>
         </placeholder>
@@ -38,6 +38,10 @@
                         <action selector="onRight:" destination="-1" eventType="touchUpInside" id="LKp-3p-Ngg"/>
                     </connections>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" id="VYC-Hl-Pgy">
+                    <rect key="frame" x="494" y="364" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Gk-UR-14z" userLabel="Cross">
                     <rect key="frame" x="954" y="27" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

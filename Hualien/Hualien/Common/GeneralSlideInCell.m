@@ -77,32 +77,15 @@
     
     if (self.iBgFileName)
     {
-   
-#ifdef IMGLOAD_USE_MAINTHREAD
-        /*
-        dispatch_async(dispatch_get_main_queue(), ^{
-        //UIImage* uiBsImg =  [[UIImageSrcMng sharedManager] requestImage:self.iBgFileName];
-        //NSString *fileName = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:[NSString stringWithFormat:@"/%@", self.iBgFileName]];
-        //UIImage  *uiBsImg    = [UIImage imageWithContentsOfFile:fileName];
+      dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+        @autoreleasepool {
         UIImage* uiBsImg = [UIImage imageNamed:self.iBgFileName];
-        [self.uiBgImgView setImage:uiBsImg];
-        self.uiBgImgView.frame = self->iFixRect;
-            uiBsImg = nil;
+        dispatch_async(dispatch_get_main_queue(), ^{
+          [self.uiBgImgView setImage:uiBsImg];
+          self.uiBgImgView.frame = self->iFixRect;
         });
-        */
-#else
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
-            @autoreleasepool {
-                //UIImage* uiBsImg = [UIImage imageNamed:self.iBgFileName];
-                UIImage* uiBsImg =  [[UIImageSrcMng sharedManager] requestImage:self.iBgFileName];
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [self.uiBgImgView setImage:uiBsImg];
-                    self.uiBgImgView.frame = self->iFixRect;
-                });
-            }
-        });
-#endif
-         
+        }
+      });
     }
     
     if (self.iDepFileName)
