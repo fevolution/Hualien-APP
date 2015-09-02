@@ -6,7 +6,6 @@
 //  Copyright (c) 2015年 Chen ChunTa. All rights reserved.
 //
 #import "GeneralSlideInView.h"
-#import "UIImage+ImageFile.h"
 @interface GeneralSlideInView()
 {
   int iDesOffsetY;
