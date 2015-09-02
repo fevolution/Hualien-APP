@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Crittercism.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
-  [Crittercism enableWithAppID:@"55dcb0a4cb114f1000e34be8"];
-  [Crittercism leaveBreadcrumb:@"User start using!"];
+
   return YES;
 }
 

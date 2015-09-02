@@ -300,7 +300,6 @@
 		189A933C1B32B2B200EAA91D /* vlg_04_ref_scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 189A933A1B32B2B200EAA91D /* vlg_04_ref_scene.png */; };
 		189A933E1B32B5BC00EAA91D /* vlg_04_ref_seleresult.png in Resources */ = {isa = PBXBuildFile; fileRef = 189A933D1B32B5BC00EAA91D /* vlg_04_ref_seleresult.png */; };
 		189A93401B32B64900EAA91D /* vlg_04_ref_seleresult_botline.png in Resources */ = {isa = PBXBuildFile; fileRef = 189A933F1B32B64900EAA91D /* vlg_04_ref_seleresult_botline.png */; };
-		18A4DAC41B8F633E0094D4A4 /* libMonkeyTalk-2.0.10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A4DAC31B8F633E0094D4A4 /* libMonkeyTalk-2.0.10.a */; };
 		18BB4A951B3994AE000E0549 /* vlg_arch_00_00_interview_longtext-01_09.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18BB4A941B3994AE000E0549 /* vlg_arch_00_00_interview_longtext-01_09.gif */; };
 		18BB4A971B39B7F2000E0549 /* Furniture_Animation_2015_05_29.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18BB4A961B39B7F1000E0549 /* Furniture_Animation_2015_05_29.mov */; };
 		18BB4A9B1B39BFA5000E0549 /* GeneralSingleSlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB4A991B39BFA5000E0549 /* GeneralSingleSlideShow.m */; };
@@ -310,7 +309,6 @@
 		18BB4AA31B3A7D73000E0549 /* vlg_01_03_west_des.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BB4AA11B3A7D73000E0549 /* vlg_01_03_west_des.png */; };
 		18BB4AA41B3A7D73000E0549 /* vlg_01_03_west_des@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BB4AA21B3A7D73000E0549 /* vlg_01_03_west_des@2x.png */; };
 		18BD09CA1B8CE86100FFD4B7 /* dsym_upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18BD09C81B8CE86100FFD4B7 /* dsym_upload.sh */; };
-		18BD09CB1B8CE86100FFD4B7 /* libCrittercism_v5_3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BD09C91B8CE86100FFD4B7 /* libCrittercism_v5_3_0.a */; };
 		18C9CE361B46F4190073C77F /* hl_intro_c05_text01_refine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CE351B46F4190073C77F /* hl_intro_c05_text01_refine@2x.png */; };
 		18C9CE381B46F4B60073C77F /* hl_intro_c05_text01_refine.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CE371B46F4B60073C77F /* hl_intro_c05_text01_refine.png */; };
 		18C9CE3A1B46F5540073C77F /* hl_intro_c05_text02_refine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C9CE391B46F5540073C77F /* hl_intro_c05_text02_refine@2x.png */; };
@@ -1502,9 +1500,6 @@
 		248F6E481AE6BD7E003B2F22 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E471AE6BD7E003B2F22 /* libstdc++.6.0.9.dylib */; };
 		248F6E4A1AE6BD87003B2F22 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E491AE6BD87003B2F22 /* libsqlite3.dylib */; };
 		248F6E4C1AE6BD8D003B2F22 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E4B1AE6BD8D003B2F22 /* CFNetwork.framework */; };
-		248F6E4D1AE7A408003B2F22 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E471AE6BD7E003B2F22 /* libstdc++.6.0.9.dylib */; };
-		248F6E4E1AE7A40E003B2F22 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E4B1AE6BD8D003B2F22 /* CFNetwork.framework */; };
-		248F6E501AE7A46F003B2F22 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F6E491AE6BD87003B2F22 /* libsqlite3.dylib */; };
 		2497EBD21AE6100300C22834 /* vlg_arch_01_05_interiordeco_bedroom01_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2497EBD11AE6100300C22834 /* vlg_arch_01_05_interiordeco_bedroom01_text@2x.png */; };
 		2497EBD41AE6150B00C22834 /* vlg_arch_01_05_interiordeco_bedroom02_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2497EBD31AE6150B00C22834 /* vlg_arch_01_05_interiordeco_bedroom02_text@2x.png */; };
 		2497EBD61AE615CB00C22834 /* vlg_arch_01_05_interiordeco_bedroom03_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2497EBD51AE615CB00C22834 /* vlg_arch_01_05_interiordeco_bedroom03_text@2x.png */; };
@@ -3087,12 +3082,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248F6E501AE7A46F003B2F22 /* libsqlite3.dylib in Frameworks */,
-				248F6E4E1AE7A40E003B2F22 /* CFNetwork.framework in Frameworks */,
-				18BD09CB1B8CE86100FFD4B7 /* libCrittercism_v5_3_0.a in Frameworks */,
-				248F6E4D1AE7A408003B2F22 /* libstdc++.6.0.9.dylib in Frameworks */,
 				24F64E421AE4B93A0024BA9F /* QuartzCore.framework in Frameworks */,
-				18A4DAC41B8F633E0094D4A4 /* libMonkeyTalk-2.0.10.a in Frameworks */,
 				24CDAF591AD68B8600E4FBFA /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -6785,12 +6775,7 @@
 					/Users/chuntachen/Downloads/monkeytalkpro/agents/ios,
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-lstdc++",
-					"-framework",
-					SystemConfiguration,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -6815,12 +6800,7 @@
 					/Users/chuntachen/Downloads/monkeytalkpro/agents/ios,
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-lstdc++",
-					"-framework",
-					SystemConfiguration,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
