@@ -6,7 +6,6 @@
 //
 
 #import "GeneralSlideInCell.h"
-#import "UIImage+ImageFile.h"
 
 #import "UIImageSrcMng.h"
 #define CORNER_BTN_W 16
